@@ -159,5 +159,15 @@
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
     "ModuleType": 14
+  },
+  {
+    "ModuleName": "verifybug",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T18:27:27.3181588+08:00",
+    "ModuleType": 1
   }
 ]
