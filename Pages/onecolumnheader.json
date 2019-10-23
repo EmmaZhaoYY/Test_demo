@@ -1,0 +1,1749 @@
+{
+  "Rows": {
+    "Sizes": {
+      "0": 22.0,
+      "1": 30.0,
+      "3": 30.0,
+      "4": 30.0,
+      "14": 30.0,
+      "15": 30.0,
+      "23": 30.0,
+      "24": 30.0
+    },
+    "Count": 46
+  },
+  "Cols": {
+    "Count": 64
+  },
+  "Values": {
+    "1,2": "table to excel",
+    "1,8": "page to excel",
+    "1,14": "pdf",
+    "1,20": "print",
+    "3,55": "1.单行设置单元格类型\n2.拖拽字段取消列头设置单元格类型然后勾选显示行头\r\n3.拖拽字段设置单元格类型。设置多列头",
+    "28,42": 12345
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, Forguncy",
+            "ListViewName": "表格1",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "table to excel",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, Forguncy",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "page to excel",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "pdf",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.PrintCommand, Forguncy"
+          }
+        ],
+        "Text": "print",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表1",
+        "RowIndex": 3,
+        "ColumnIndex": 2,
+        "ColumnCount": 52,
+        "RowCount": 9,
+        "IsTotalRowVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium9"
+      }
+    },
+    "3,55": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "CellDefaultValue": "1.单行设置单元格类型\n2.拖拽字段取消列头设置单元格类型然后勾选显示行头\r\n3.拖拽字段设置单元格类型。设置多列头"
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "文本"
+      }
+    },
+    "4,8": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数"
+      }
+    },
+    "4,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "小数"
+      }
+    },
+    "4,19": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "日期"
+      }
+    },
+    "4,25": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "时间"
+      }
+    },
+    "4,30": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "ShowOnlyEdit": false,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "是_否"
+      }
+    },
+    "4,34": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, Forguncy",
+        "Columns": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "用户"
+      }
+    },
+    "4,39": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "图片",
+        "IsImagePath": true
+      }
+    },
+    "4,45": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "附件"
+      }
+    },
+    "14,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表1",
+        "RowIndex": 14,
+        "ColumnIndex": 2,
+        "ColumnCount": 52,
+        "RowCount": 8,
+        "IsTotalRowVisible": true,
+        "IsTotalRowAtFirstRow": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium14"
+      }
+    },
+    "15,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TotalRowSetting": {
+        "StaticText": "总计"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "文本"
+      }
+    },
+    "15,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数"
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "小数"
+      }
+    },
+    "15,19": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "日期"
+      }
+    },
+    "15,25": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "时间"
+      }
+    },
+    "15,30": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "ShowOnlyEdit": false,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "是_否"
+      }
+    },
+    "15,34": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, Forguncy",
+        "Columns": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "用户"
+      }
+    },
+    "15,39": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "图片",
+        "IsImagePath": true
+      }
+    },
+    "15,45": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "附件"
+      }
+    },
+    "23,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表1",
+        "RowIndex": 23,
+        "ColumnIndex": 2,
+        "ColumnCount": 52,
+        "RowCount": 9,
+        "ColumnHeaderRowCount": 5,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "IsTotalRowVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格3",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Dark11"
+      }
+    },
+    "28,4": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "ID"
+      }
+    },
+    "28,7": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "文本"
+      }
+    },
+    "28,13": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "SpinButtonvisibility": 0,
+        "Use1000Sepatator": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数"
+      }
+    },
+    "28,19": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 3,
+        "Increment": 10,
+        "SpinButtonvisibility": 0,
+        "Use1000Sepatator": true,
+        "WaterMark": ">0",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "小数"
+      }
+    },
+    "28,25": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxGroupCellType, Forguncy",
+        "ShowOnlyEdit": false,
+        "Items": [
+          {
+            "Value": "10:00",
+            "DisplayValue": "10:00"
+          },
+          {
+            "Value": "12:00",
+            "DisplayValue": "12:00"
+          },
+          {
+            "Value": "14:00",
+            "DisplayValue": "14:00"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "时间"
+      }
+    },
+    "28,33": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, Forguncy",
+        "NoneItemText": "<空>",
+        "ShowOnlyEdit": false,
+        "Items": [
+          {
+            "Value": "2019/10/12",
+            "DisplayValue": "2019/10/12"
+          },
+          {
+            "Value": "2019/10/23",
+            "DisplayValue": "2019/10/23"
+          },
+          {
+            "Value": "2019/11/15",
+            "DisplayValue": "2019/11/15"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "日期"
+      }
+    },
+    "28,39": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "0"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "1"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "是_否"
+      }
+    },
+    "28,42": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, Forguncy"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "barcode"
+      }
+    },
+    "28,47": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "图片1",
+        "IsImagePath": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "VerticalAlignment": 2,
+        "WordWrap": true
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "Foreground": 4,
+        "Underline": true
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 4,
+        "Underline": true
+      },
+      {
+        "FontFamily": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "DarkGray",
+        "Top",
+        "Center",
+        "Blue"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,8": 0,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "3,2": 2,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 3,
+      "3,17": 3,
+      "3,18": 3,
+      "3,19": 3,
+      "3,20": 3,
+      "3,21": 3,
+      "3,22": 3,
+      "3,23": 3,
+      "3,24": 3,
+      "3,25": 3,
+      "3,26": 3,
+      "3,27": 3,
+      "3,28": 3,
+      "3,29": 3,
+      "3,30": 3,
+      "3,31": 3,
+      "3,32": 3,
+      "3,33": 3,
+      "3,34": 3,
+      "3,35": 3,
+      "3,36": 3,
+      "3,37": 3,
+      "3,38": 3,
+      "3,39": 3,
+      "3,40": 3,
+      "3,41": 3,
+      "3,42": 3,
+      "3,43": 3,
+      "3,44": 3,
+      "3,45": 3,
+      "3,46": 3,
+      "3,47": 3,
+      "3,48": 3,
+      "3,49": 3,
+      "3,50": 3,
+      "3,51": 3,
+      "3,52": 3,
+      "3,53": 4,
+      "3,55": 5,
+      "4,2": 6,
+      "4,30": 7,
+      "4,45": 8,
+      "4,53": 9,
+      "5,2": 6,
+      "5,48": 9,
+      "5,53": 9,
+      "6,2": 6,
+      "6,48": 9,
+      "6,53": 9,
+      "7,2": 6,
+      "7,48": 9,
+      "7,53": 9,
+      "8,2": 6,
+      "8,48": 9,
+      "8,53": 9,
+      "9,2": 6,
+      "9,48": 9,
+      "9,53": 9,
+      "10,2": 6,
+      "10,48": 9,
+      "10,53": 9,
+      "11,2": 10,
+      "11,3": 11,
+      "11,4": 11,
+      "11,5": 11,
+      "11,6": 11,
+      "11,7": 11,
+      "11,8": 11,
+      "11,9": 11,
+      "11,10": 11,
+      "11,11": 11,
+      "11,12": 11,
+      "11,13": 11,
+      "11,14": 11,
+      "11,15": 11,
+      "11,16": 11,
+      "11,17": 11,
+      "11,18": 11,
+      "11,19": 11,
+      "11,20": 11,
+      "11,21": 11,
+      "11,22": 11,
+      "11,23": 11,
+      "11,24": 11,
+      "11,25": 11,
+      "11,26": 11,
+      "11,27": 11,
+      "11,28": 11,
+      "11,29": 11,
+      "11,30": 11,
+      "11,31": 11,
+      "11,32": 11,
+      "11,33": 11,
+      "11,34": 11,
+      "11,35": 11,
+      "11,36": 11,
+      "11,37": 11,
+      "11,38": 11,
+      "11,39": 11,
+      "11,40": 11,
+      "11,41": 11,
+      "11,42": 11,
+      "11,43": 11,
+      "11,44": 11,
+      "11,45": 11,
+      "11,46": 11,
+      "11,47": 11,
+      "11,48": 12,
+      "11,49": 11,
+      "11,50": 11,
+      "11,51": 11,
+      "11,52": 11,
+      "11,53": 12,
+      "14,2": 13,
+      "14,3": 14,
+      "14,4": 14,
+      "14,5": 14,
+      "14,6": 14,
+      "14,7": 14,
+      "14,8": 14,
+      "14,9": 14,
+      "14,10": 14,
+      "14,11": 14,
+      "14,12": 14,
+      "14,13": 14,
+      "14,14": 14,
+      "14,15": 14,
+      "14,16": 14,
+      "14,17": 14,
+      "14,18": 14,
+      "14,19": 14,
+      "14,20": 14,
+      "14,21": 14,
+      "14,22": 14,
+      "14,23": 14,
+      "14,24": 14,
+      "14,25": 14,
+      "14,26": 14,
+      "14,27": 14,
+      "14,28": 14,
+      "14,29": 14,
+      "14,30": 14,
+      "14,31": 14,
+      "14,32": 14,
+      "14,33": 14,
+      "14,34": 14,
+      "14,35": 14,
+      "14,36": 14,
+      "14,37": 14,
+      "14,38": 14,
+      "14,39": 14,
+      "14,40": 14,
+      "14,41": 14,
+      "14,42": 14,
+      "14,43": 14,
+      "14,44": 14,
+      "14,45": 14,
+      "14,46": 14,
+      "14,47": 14,
+      "14,48": 14,
+      "14,49": 14,
+      "14,50": 14,
+      "14,51": 14,
+      "14,52": 14,
+      "14,53": 15,
+      "15,2": 16,
+      "15,3": 1,
+      "15,4": 1,
+      "15,5": 1,
+      "15,6": 1,
+      "15,7": 1,
+      "15,8": 1,
+      "15,9": 1,
+      "15,10": 1,
+      "15,11": 1,
+      "15,12": 1,
+      "15,13": 1,
+      "15,14": 1,
+      "15,15": 1,
+      "15,16": 1,
+      "15,17": 1,
+      "15,18": 1,
+      "15,19": 1,
+      "15,20": 1,
+      "15,21": 1,
+      "15,22": 1,
+      "15,23": 1,
+      "15,24": 1,
+      "15,25": 1,
+      "15,26": 1,
+      "15,27": 1,
+      "15,28": 1,
+      "15,29": 1,
+      "15,30": 17,
+      "15,31": 1,
+      "15,32": 1,
+      "15,33": 1,
+      "15,34": 1,
+      "15,35": 1,
+      "15,36": 1,
+      "15,37": 1,
+      "15,38": 1,
+      "15,39": 1,
+      "15,40": 1,
+      "15,41": 1,
+      "15,42": 1,
+      "15,43": 1,
+      "15,44": 1,
+      "15,45": 18,
+      "15,46": 1,
+      "15,47": 1,
+      "15,48": 1,
+      "15,49": 1,
+      "15,50": 1,
+      "15,51": 1,
+      "15,52": 1,
+      "15,53": 19,
+      "16,2": 16,
+      "16,3": 1,
+      "16,4": 1,
+      "16,5": 1,
+      "16,6": 1,
+      "16,7": 1,
+      "16,8": 1,
+      "16,9": 1,
+      "16,10": 1,
+      "16,11": 1,
+      "16,12": 1,
+      "16,13": 1,
+      "16,14": 1,
+      "16,15": 1,
+      "16,16": 1,
+      "16,17": 1,
+      "16,18": 1,
+      "16,19": 1,
+      "16,20": 1,
+      "16,21": 1,
+      "16,22": 1,
+      "16,23": 1,
+      "16,24": 1,
+      "16,25": 1,
+      "16,26": 1,
+      "16,27": 1,
+      "16,28": 1,
+      "16,29": 1,
+      "16,30": 1,
+      "16,31": 1,
+      "16,32": 1,
+      "16,33": 1,
+      "16,34": 1,
+      "16,35": 1,
+      "16,36": 1,
+      "16,37": 1,
+      "16,38": 1,
+      "16,39": 1,
+      "16,40": 1,
+      "16,41": 1,
+      "16,42": 1,
+      "16,43": 1,
+      "16,44": 1,
+      "16,45": 1,
+      "16,46": 1,
+      "16,47": 1,
+      "16,48": 19,
+      "16,49": 1,
+      "16,50": 1,
+      "16,51": 1,
+      "16,52": 1,
+      "16,53": 19,
+      "17,2": 16,
+      "17,3": 1,
+      "17,4": 1,
+      "17,5": 1,
+      "17,6": 1,
+      "17,7": 1,
+      "17,8": 1,
+      "17,9": 1,
+      "17,10": 1,
+      "17,11": 1,
+      "17,12": 1,
+      "17,13": 1,
+      "17,14": 1,
+      "17,15": 1,
+      "17,16": 1,
+      "17,17": 1,
+      "17,18": 1,
+      "17,19": 1,
+      "17,20": 1,
+      "17,21": 1,
+      "17,22": 1,
+      "17,23": 1,
+      "17,24": 1,
+      "17,25": 1,
+      "17,26": 1,
+      "17,27": 1,
+      "17,28": 1,
+      "17,29": 1,
+      "17,30": 1,
+      "17,31": 1,
+      "17,32": 1,
+      "17,33": 1,
+      "17,34": 1,
+      "17,35": 1,
+      "17,36": 1,
+      "17,37": 1,
+      "17,38": 1,
+      "17,39": 1,
+      "17,40": 1,
+      "17,41": 1,
+      "17,42": 1,
+      "17,43": 1,
+      "17,44": 1,
+      "17,45": 1,
+      "17,46": 1,
+      "17,47": 1,
+      "17,48": 19,
+      "17,49": 1,
+      "17,50": 1,
+      "17,51": 1,
+      "17,52": 1,
+      "17,53": 19,
+      "18,2": 16,
+      "18,3": 1,
+      "18,4": 1,
+      "18,5": 1,
+      "18,6": 1,
+      "18,7": 1,
+      "18,8": 1,
+      "18,9": 1,
+      "18,10": 1,
+      "18,11": 1,
+      "18,12": 1,
+      "18,13": 1,
+      "18,14": 1,
+      "18,15": 1,
+      "18,16": 1,
+      "18,17": 1,
+      "18,18": 1,
+      "18,19": 1,
+      "18,20": 1,
+      "18,21": 1,
+      "18,22": 1,
+      "18,23": 1,
+      "18,24": 1,
+      "18,25": 1,
+      "18,26": 1,
+      "18,27": 1,
+      "18,28": 1,
+      "18,29": 1,
+      "18,30": 1,
+      "18,31": 1,
+      "18,32": 1,
+      "18,33": 1,
+      "18,34": 1,
+      "18,35": 1,
+      "18,36": 1,
+      "18,37": 1,
+      "18,38": 1,
+      "18,39": 1,
+      "18,40": 1,
+      "18,41": 1,
+      "18,42": 1,
+      "18,43": 1,
+      "18,44": 1,
+      "18,45": 1,
+      "18,46": 1,
+      "18,47": 1,
+      "18,48": 19,
+      "18,49": 1,
+      "18,50": 1,
+      "18,51": 1,
+      "18,52": 1,
+      "18,53": 19,
+      "19,2": 16,
+      "19,3": 1,
+      "19,4": 1,
+      "19,5": 1,
+      "19,6": 1,
+      "19,7": 1,
+      "19,8": 1,
+      "19,9": 1,
+      "19,10": 1,
+      "19,11": 1,
+      "19,12": 1,
+      "19,13": 1,
+      "19,14": 1,
+      "19,15": 1,
+      "19,16": 1,
+      "19,17": 1,
+      "19,18": 1,
+      "19,19": 1,
+      "19,20": 1,
+      "19,21": 1,
+      "19,22": 1,
+      "19,23": 1,
+      "19,24": 1,
+      "19,25": 1,
+      "19,26": 1,
+      "19,27": 1,
+      "19,28": 1,
+      "19,29": 1,
+      "19,30": 1,
+      "19,31": 1,
+      "19,32": 1,
+      "19,33": 1,
+      "19,34": 1,
+      "19,35": 1,
+      "19,36": 1,
+      "19,37": 1,
+      "19,38": 1,
+      "19,39": 1,
+      "19,40": 1,
+      "19,41": 1,
+      "19,42": 1,
+      "19,43": 1,
+      "19,44": 1,
+      "19,45": 1,
+      "19,46": 1,
+      "19,47": 1,
+      "19,48": 19,
+      "19,49": 1,
+      "19,50": 1,
+      "19,51": 1,
+      "19,52": 1,
+      "19,53": 19,
+      "20,2": 20,
+      "20,3": 21,
+      "20,4": 21,
+      "20,5": 21,
+      "20,6": 21,
+      "20,7": 21,
+      "20,8": 21,
+      "20,9": 21,
+      "20,10": 21,
+      "20,11": 21,
+      "20,12": 21,
+      "20,13": 21,
+      "20,14": 21,
+      "20,15": 21,
+      "20,16": 21,
+      "20,17": 21,
+      "20,18": 21,
+      "20,19": 21,
+      "20,20": 21,
+      "20,21": 21,
+      "20,22": 21,
+      "20,23": 21,
+      "20,24": 21,
+      "20,25": 21,
+      "20,26": 21,
+      "20,27": 21,
+      "20,28": 21,
+      "20,29": 21,
+      "20,30": 21,
+      "20,31": 21,
+      "20,32": 21,
+      "20,33": 21,
+      "20,34": 21,
+      "20,35": 21,
+      "20,36": 21,
+      "20,37": 21,
+      "20,38": 21,
+      "20,39": 21,
+      "20,40": 21,
+      "20,41": 21,
+      "20,42": 21,
+      "20,43": 21,
+      "20,44": 21,
+      "20,45": 21,
+      "20,46": 21,
+      "20,47": 21,
+      "20,48": 22,
+      "20,49": 21,
+      "20,50": 21,
+      "20,51": 21,
+      "20,52": 21,
+      "20,53": 22,
+      "21,2": 10,
+      "21,3": 11,
+      "21,4": 11,
+      "21,5": 11,
+      "21,6": 11,
+      "21,7": 11,
+      "21,8": 11,
+      "21,9": 11,
+      "21,10": 11,
+      "21,11": 11,
+      "21,12": 11,
+      "21,13": 11,
+      "21,14": 11,
+      "21,15": 11,
+      "21,16": 11,
+      "21,17": 11,
+      "21,18": 11,
+      "21,19": 11,
+      "21,20": 11,
+      "21,21": 11,
+      "21,22": 11,
+      "21,23": 11,
+      "21,24": 11,
+      "21,25": 11,
+      "21,26": 11,
+      "21,27": 11,
+      "21,28": 11,
+      "21,29": 11,
+      "21,30": 11,
+      "21,31": 11,
+      "21,32": 11,
+      "21,33": 11,
+      "21,34": 11,
+      "21,35": 11,
+      "21,36": 11,
+      "21,37": 11,
+      "21,38": 11,
+      "21,39": 11,
+      "21,40": 11,
+      "21,41": 11,
+      "21,42": 11,
+      "21,43": 11,
+      "21,44": 11,
+      "21,45": 11,
+      "21,46": 11,
+      "21,47": 11,
+      "21,48": 11,
+      "21,49": 11,
+      "21,50": 11,
+      "21,51": 11,
+      "21,52": 11,
+      "21,53": 12,
+      "22,56": 1,
+      "23,2": 2,
+      "23,3": 3,
+      "23,4": 3,
+      "23,5": 3,
+      "23,6": 3,
+      "23,7": 3,
+      "23,8": 3,
+      "23,9": 3,
+      "23,10": 3,
+      "23,11": 3,
+      "23,12": 3,
+      "23,13": 3,
+      "23,14": 3,
+      "23,15": 3,
+      "23,16": 3,
+      "23,17": 3,
+      "23,18": 3,
+      "23,19": 3,
+      "23,20": 3,
+      "23,21": 3,
+      "23,22": 3,
+      "23,23": 3,
+      "23,24": 3,
+      "23,25": 3,
+      "23,26": 3,
+      "23,27": 3,
+      "23,28": 3,
+      "23,29": 3,
+      "23,30": 3,
+      "23,31": 3,
+      "23,32": 3,
+      "23,33": 3,
+      "23,34": 3,
+      "23,35": 3,
+      "23,36": 3,
+      "23,37": 3,
+      "23,38": 3,
+      "23,39": 3,
+      "23,40": 3,
+      "23,41": 3,
+      "23,42": 3,
+      "23,43": 3,
+      "23,44": 3,
+      "23,45": 3,
+      "23,46": 3,
+      "23,47": 3,
+      "23,48": 3,
+      "23,49": 3,
+      "23,50": 3,
+      "23,51": 3,
+      "23,52": 3,
+      "23,53": 4,
+      "24,2": 6,
+      "24,53": 9,
+      "25,2": 6,
+      "25,53": 9,
+      "25,55": 1,
+      "26,2": 6,
+      "26,53": 9,
+      "27,2": 6,
+      "27,53": 9,
+      "28,2": 6,
+      "28,7": 5,
+      "28,53": 9,
+      "29,2": 6,
+      "29,53": 9,
+      "30,2": 6,
+      "30,53": 9,
+      "31,2": 10,
+      "31,3": 11,
+      "31,4": 11,
+      "31,5": 11,
+      "31,6": 11,
+      "31,7": 11,
+      "31,8": 11,
+      "31,9": 11,
+      "31,10": 11,
+      "31,11": 11,
+      "31,12": 11,
+      "31,13": 11,
+      "31,14": 11,
+      "31,15": 11,
+      "31,16": 11,
+      "31,17": 11,
+      "31,18": 11,
+      "31,19": 11,
+      "31,20": 11,
+      "31,21": 11,
+      "31,22": 11,
+      "31,23": 11,
+      "31,24": 11,
+      "31,25": 11,
+      "31,26": 11,
+      "31,27": 11,
+      "31,28": 11,
+      "31,29": 11,
+      "31,30": 11,
+      "31,31": 11,
+      "31,32": 11,
+      "31,33": 11,
+      "31,34": 11,
+      "31,35": 11,
+      "31,36": 11,
+      "31,37": 11,
+      "31,38": 11,
+      "31,39": 11,
+      "31,40": 11,
+      "31,41": 11,
+      "31,42": 11,
+      "31,43": 11,
+      "31,44": 11,
+      "31,45": 11,
+      "31,46": 11,
+      "31,47": 11,
+      "31,48": 11,
+      "31,49": 11,
+      "31,50": 11,
+      "31,51": 11,
+      "31,52": 11,
+      "31,53": 12
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,14,1,4",
+    "1,20,1,4",
+    "1,2,1,5",
+    "1,8,1,5",
+    "4,2,1,6",
+    "4,8,1,6",
+    "4,14,1,5",
+    "4,19,1,6",
+    "4,25,1,5",
+    "4,30,1,4",
+    "4,34,1,5",
+    "4,39,1,6",
+    "4,45,1,9",
+    "3,55,15,8",
+    "5,2,7,52",
+    "15,2,1,6",
+    "15,8,1,6",
+    "15,14,1,5",
+    "15,19,1,6",
+    "15,25,1,5",
+    "15,30,1,4",
+    "15,34,1,5",
+    "15,39,1,6",
+    "15,45,1,9",
+    "16,2,6,52",
+    "24,4,1,3",
+    "24,7,1,6",
+    "24,13,1,6",
+    "24,19,1,6",
+    "24,25,1,8",
+    "24,33,1,6",
+    "24,39,1,3",
+    "24,42,1,5",
+    "24,47,1,7",
+    "23,4,1,21",
+    "23,25,1,29",
+    "3,2,1,6",
+    "3,8,1,6",
+    "3,14,1,5",
+    "3,19,1,6",
+    "3,25,1,5",
+    "3,30,1,4",
+    "3,34,1,5",
+    "3,39,1,6",
+    "3,45,1,9",
+    "14,2,1,6",
+    "14,8,1,6",
+    "14,14,1,5",
+    "14,19,1,6",
+    "14,25,1,5",
+    "14,30,1,4",
+    "14,34,1,5",
+    "14,39,1,6",
+    "14,45,1,9",
+    "28,4,1,3",
+    "28,7,1,6",
+    "28,13,1,6",
+    "28,19,1,6",
+    "28,25,1,8",
+    "28,33,1,6",
+    "28,39,1,3",
+    "28,42,1,5",
+    "28,47,1,7",
+    "29,2,3,52",
+    "25,33,1,6",
+    "25,39,1,3",
+    "25,42,1,5",
+    "25,47,1,7",
+    "26,4,1,3",
+    "26,7,1,6",
+    "26,13,1,6",
+    "26,47,1,7",
+    "27,4,1,3",
+    "27,19,1,6",
+    "27,25,1,8",
+    "27,33,1,6",
+    "27,39,1,3",
+    "27,42,1,5",
+    "27,47,1,7",
+    "25,4,1,9",
+    "25,13,1,20",
+    "26,33,1,14",
+    "27,7,1,12",
+    "26,19,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

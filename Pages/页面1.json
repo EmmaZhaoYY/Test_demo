@@ -1,20 +1,546 @@
 {
   "Rows": {
-    "Count": 45
+    "Sizes": {
+      "1": 20.0
+    },
+    "Count": 45,
+    "DefaultSize": 30.0
   },
   "Cols": {
-    "Count": 60
+    "Count": 60,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "0,1": "Readonly",
+    "1,10": "只读",
+    "1,14": "share command",
+    "2,7": "只读",
+    "2,10": "Javascript",
+    "2,14": "TC只读",
+    "2,18": "只读",
+    "3,1": "value",
+    "3,10": "读写",
+    "4,7": "读写",
+    "4,10": "Javascript",
+    "4,14": "TC读写",
+    "4,18": "读写"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+            "PropertyItemsList": [
+              {
+                "Cell": {
+                  "SerializeProperty": "=页面1!B3"
+                },
+                "PropertyType": 5,
+                "Value": true
+              }
+            ]
+          }
+        ],
+        "Text": "只读",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(true);",
+            "ID": "52079d5c488b44ee846af25ca2f54879"
+          }
+        ],
+        "Text": "Javascript",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, Forguncy",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "a9543627-4c8b-4b99-9e8c-194ce191ee4c"
+            }
+          }
+        ],
+        "Text": "TC只读",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, Forguncy",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "d25e3726-1b7c-440b-92d6-cc2b704e2eb6"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "7614897b-ab6f-4cc9-bed7-724718fb07cf",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "d25e3726-1b7c-440b-92d6-cc2b704e2eb6"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=页面1!textbox"
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "49b19a30-ad26-441a-913b-1edc9a26e05c",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "d25e3726-1b7c-440b-92d6-cc2b704e2eb6"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=1"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "只读",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+            "PropertyItemsList": [
+              {
+                "Cell": {
+                  "SerializeProperty": "=页面1!B5"
+                },
+                "Value": "readonly"
+              }
+            ]
+          }
+        ],
+        "Text": "value",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.SpecificTextRule, Forguncy",
+            "Value": "readonly",
+            "StyleInfo": {
+              "Parent": "",
+              "FontWeight": "Bold",
+              "Background": "Accent 6 0",
+              "Foreground": "Accent 3 0",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
+      }
+    },
+    "4,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+            "PropertyItemsList": [
+              {
+                "Cell": {
+                  "SerializeProperty": "=页面1!B3"
+                },
+                "PropertyType": 5,
+                "Value": false
+              }
+            ]
+          }
+        ],
+        "Text": "读写",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(false);",
+            "ID": "8a5fa509460f441eb3e579d73d7a52b8"
+          }
+        ],
+        "Text": "Javascript",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, Forguncy",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "151d27f7-fc12-4dff-959c-bfc89d072d1c"
+            }
+          }
+        ],
+        "Text": "TC读写",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, Forguncy",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "d25e3726-1b7c-440b-92d6-cc2b704e2eb6"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "7614897b-ab6f-4cc9-bed7-724718fb07cf",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "d25e3726-1b7c-440b-92d6-cc2b704e2eb6"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=页面1!textbox"
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "49b19a30-ad26-441a-913b-1edc9a26e05c",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "d25e3726-1b7c-440b-92d6-cc2b704e2eb6"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=0"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "读写",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "6,7": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "textbox",
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
   },
   "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Background": 2
+      },
+      {
+        "HorizontalAlignment": 3,
+        "Underline": true
+      }
+    ],
     "Types": {
       "Strs": [
-        "Body"
+        "Body",
+        "[AUTO]General",
+        "Accent 2 80",
+        "Center"
       ]
+    },
+    "CellStyles": {
+      "1,10": 0,
+      "1,11": 1,
+      "1,12": 1,
+      "1,14": 2,
+      "2,10": 0,
+      "2,11": 1,
+      "2,12": 1,
+      "3,1": 3,
+      "4,7": 0,
+      "4,8": 1,
+      "4,10": 0,
+      "4,11": 1,
+      "4,12": 1,
+      "4,14": 0,
+      "4,15": 1,
+      "4,16": 1,
+      "4,18": 1,
+      "4,19": 1,
+      "4,20": 1
     },
     "SheetStyle": {
       "FontFamily": 0
     }
   },
+  "Spans": [
+    "2,1,1,5",
+    "2,7,1,2",
+    "4,7,1,2",
+    "2,10,1,3",
+    "4,10,1,3",
+    "2,14,1,3",
+    "4,14,1,3",
+    "4,1,1,5",
+    "3,1,1,2",
+    "2,18,1,3",
+    "4,18,1,3",
+    "1,14,1,7",
+    "6,1,1,5",
+    "6,7,1,5"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
@@ -24,5 +550,15 @@
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
-  }
+  },
+  "CustomNames": [
+    {
+      "Name": "textbox",
+      "Formula": "页面1!$B$3"
+    },
+    {
+      "Name": "conditionalformat",
+      "Formula": "页面1!$B$5"
+    }
+  ]
 }

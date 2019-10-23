@@ -1,2 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand />
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="Forguncy">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="Forguncy">
+            <Cell>
+              <ParamReferObject>
+                <ParamID>7614897b-ab6f-4cc9-bed7-724718fb07cf</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>d25e3726-1b7c-440b-92d6-cc2b704e2eb6</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+              <SerializeProperty />
+            </Cell>
+            <PropertyType>IsReadOnly</PropertyType>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <ParamReferObject>
+                <ParamID>49b19a30-ad26-441a-913b-1edc9a26e05c</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>d25e3726-1b7c-440b-92d6-cc2b704e2eb6</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+    </Commands>
+    <ID>d25e3726-1b7c-440b-92d6-cc2b704e2eb6</ID>
+    <Name>只读读写</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="Forguncy">
+        <ID>7614897b-ab6f-4cc9-bed7-724718fb07cf</ID>
+        <Name>单元格</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="Forguncy">
+        <ID>49b19a30-ad26-441a-913b-1edc9a26e05c</ID>
+        <Name>值</Name>
+      </Item>
+    </Params>
+  </Item>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="Forguncy">
+        <ID>a87de5c89f65408dae1f891550934781</ID>
+        <JavaScript Base64="dgBhAHIAIABjAGUAbABsACAAPQAgAEYAbwByAGcAdQBuAGMAeQAuAFAAYQBnAGUALgBnAGUAdABDAGUAbABsACgAIgB0AGUAeAB0AGIAbwB4ACIAKQA7AA0ACgBjAGUAbABsAC4AcwBlAHQAUgBlAGEAZABPAG4AbAB5ACgAdAByAHUAZQApADsA" />
+      </Item>
+    </Commands>
+    <ID>a9543627-4c8b-4b99-9e8c-194ce191ee4c</ID>
+    <Name>文本框的只读</Name>
+  </Item>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="Forguncy">
+        <ID>9fe72031161e4a7ea1c7fcc48ddcb0ac</ID>
+        <JavaScript Base64="dgBhAHIAIABjAGUAbABsACAAPQAgAEYAbwByAGcAdQBuAGMAeQAuAFAAYQBnAGUALgBnAGUAdABDAGUAbABsACgAIgB0AGUAeAB0AGIAbwB4ACIAKQA7AA0ACgBjAGUAbABsAC4AcwBlAHQAUgBlAGEAZABPAG4AbAB5ACgAZgBhAGwAcwBlACkAOwA=" />
+      </Item>
+    </Commands>
+    <ID>151d27f7-fc12-4dff-959c-bfc89d072d1c</ID>
+    <Name>文本框的读写</Name>
+  </Item>
+</ShareCommand>
