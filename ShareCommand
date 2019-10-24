@@ -43,7 +43,7 @@
   <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
     <Commands>
       <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="Forguncy">
-        <ID>a87de5c89f65408dae1f891550934781</ID>
+        <ID>5d2aa57163fa480f81c4b0e343611bee</ID>
         <JavaScript Base64="dgBhAHIAIABjAGUAbABsACAAPQAgAEYAbwByAGcAdQBuAGMAeQAuAFAAYQBnAGUALgBnAGUAdABDAGUAbABsACgAIgB0AGUAeAB0AGIAbwB4ACIAKQA7AA0ACgBjAGUAbABsAC4AcwBlAHQAUgBlAGEAZABPAG4AbAB5ACgAdAByAHUAZQApADsA" />
       </Item>
     </Commands>
@@ -53,11 +53,31 @@
   <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
     <Commands>
       <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="Forguncy">
-        <ID>9fe72031161e4a7ea1c7fcc48ddcb0ac</ID>
+        <ID>2c260b237e0843519a4133f63eaa220e</ID>
         <JavaScript Base64="dgBhAHIAIABjAGUAbABsACAAPQAgAEYAbwByAGcAdQBuAGMAeQAuAFAAYQBnAGUALgBnAGUAdABDAGUAbABsACgAIgB0AGUAeAB0AGIAbwB4ACIAKQA7AA0ACgBjAGUAbABsAC4AcwBlAHQAUgBlAGEAZABPAG4AbAB5ACgAZgBhAGwAcwBlACkAOwA=" />
       </Item>
     </Commands>
     <ID>151d27f7-fc12-4dff-959c-bfc89d072d1c</ID>
     <Name>文本框的读写</Name>
+  </Item>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="Forguncy">
+        <ID>e2cb91d77c934c05bc5c808f165d92c9</ID>
+        <JavaScript Base64="dgBhAHIAIABjAGUAbABsACAAPQAgAEYAbwByAGcAdQBuAGMAeQAuAFAAYQBnAGUALgBnAGUAdABDAGUAbABsACgAIgBtAHUAaQBsAHQAbABpAG4AZQAiACkAOwANAAoAYwBlAGwAbAAuAHMAZQB0AFIAZQBhAGQATwBuAGwAeQAoAHQAcgB1AGUAKQA7AA==" />
+      </Item>
+    </Commands>
+    <ID>5e5d03f5-103a-49f3-b03e-b7133c375097</ID>
+    <Name>多行文本框的只读</Name>
+  </Item>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="Forguncy">
+        <ID>4f78eb339d6d4a0f95eb797640dfd4fe</ID>
+        <JavaScript Base64="dgBhAHIAIABjAGUAbABsACAAPQAgAEYAbwByAGcAdQBuAGMAeQAuAFAAYQBnAGUALgBnAGUAdABDAGUAbABsACgAIgBtAHUAaQBsAHQAbABpAG4AZQAiACkAOwANAAoAYwBlAGwAbAAuAHMAZQB0AFIAZQBhAGQATwBuAGwAeQAoAGYAYQBsAHMAZQApADsA" />
+      </Item>
+    </Commands>
+    <ID>588d47eb-c533-4336-a251-3dd955533289</ID>
+    <Name>多行文本框的读写</Name>
   </Item>
 </ShareCommand>

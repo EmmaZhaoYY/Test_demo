@@ -80,36 +80,12 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "页面1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T12:26:00.1990877+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面1.json"
-    ]
-  },
-  {
     "ModuleName": "FGC_母版页",
     "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T09:55:23.3259591+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -117,46 +93,15 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T09:46:49.6186007+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T11:27:54.428045+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\fgc_logo_dark.png",
-      "image\\fgc_logo_light.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T11:47:01.5611038+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
@@ -164,16 +109,7 @@
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T09:29:50.7291272+08:00",
-    "ModuleType": 13,
-    "ToRemoveFiles": [
-      "ShareCommand"
-    ]
+    "ModuleType": 13
   },
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
@@ -181,45 +117,18 @@
   },
   {
     "ModuleName": "onecolumnheader",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T10:42:39.5417216+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\onecolumnheader.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T12:26:00.1990877+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest01",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T12:26:27.9163378+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest02",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T14:10:17.3507573+08:00",
     "ModuleType": 1
   }
 ]
