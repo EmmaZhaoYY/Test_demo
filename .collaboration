@@ -86,7 +86,7 @@
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-24T09:19:48.8655036+08:00",
+    "LockDateTime": "2019-10-24T10:42:39.5427193+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\页面1.json"
@@ -162,6 +162,15 @@
   },
   {
     "ModuleName": "onecolumnheader",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T10:42:39.5417216+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\onecolumnheader.json"
+    ]
   }
 ]
