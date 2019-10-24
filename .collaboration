@@ -121,7 +121,16 @@
   },
   {
     "ModuleName": "ReadOnlyTest",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T14:39:14.6448653+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ReadOnlyTest.json"
+    ]
   },
   {
     "ModuleName": "ReadOnlyTest01",
