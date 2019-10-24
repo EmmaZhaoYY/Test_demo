@@ -157,5 +157,15 @@
   {
     "ModuleName": "Pages\\ReadOnly",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\TotalRow",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T17:03:10.8661969+08:00",
+    "ModuleType": 6
   }
 ]
