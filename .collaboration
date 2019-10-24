@@ -182,5 +182,25 @@
     "ToRemoveFiles": [
       "Pages\\预算数据_列表页面.json"
     ]
+  },
+  {
+    "ModuleName": "TestTab_e_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T18:57:14.9679903+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "TestTab_e_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T18:57:14.9679903+08:00",
+    "ModuleType": 1
   }
 ]
