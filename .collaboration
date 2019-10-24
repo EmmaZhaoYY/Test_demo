@@ -117,105 +117,34 @@
   },
   {
     "ModuleName": "onecolumnheader",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:01:13.2996349+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\onecolumnheader.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:01:13.2986372+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnlyTest.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest01",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:01:13.300633+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnlyTest01.json",
-      "image\\UserCustomCellTypeFiles\\CarouselCellType\\Images\\download (1).jpg",
-      "image\\UserCustomCellTypeFiles\\CarouselCellType\\Images\\download (3).jpg"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest02",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:01:13.3011321+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnlyTest02.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest03",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:01:13.3016312+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnlyTest03.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ROPhone01",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:01:13.3016312+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ROPhone01.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "ROphone02",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:00:37.0525388+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ROphone02.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\ReadOnly",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:00:16.2270354+08:00",
     "ModuleType": 6
   }
 ]
