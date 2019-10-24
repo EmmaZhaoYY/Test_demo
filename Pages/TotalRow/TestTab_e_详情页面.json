@@ -9,9 +9,8 @@
       "15": 30.0,
       "17": 30.0,
       "19": 30.0,
-      "21": 30.0,
-      "23": 30.0,
-      "25": 30.0
+      "26": 30.0,
+      "33": 30.0
     },
     "Count": 45
   },
@@ -20,26 +19,54 @@
   },
   "Values": {
     "3,6": "ID:",
-    "5,6": "レコード番号:",
-    "7,6": "部門:",
-    "9,6": "勘定科目:",
-    "11,6": "日付:",
-    "13,6": "年度:",
-    "15,6": "年:",
-    "17,6": "月:",
-    "19,6": "予算:",
-    "21,6": "実績:",
-    "23,6": "達成率:",
-    "25,16": "取消"
+    "5,6": "文本:",
+    "7,6": "整数:",
+    "9,6": "小数:",
+    "11,6": "日期:",
+    "13,6": "时间:",
+    "15,6": "是_否:",
+    "17,6": "用户:",
+    "19,6": "图片:",
+    "26,6": "附件:",
+    "33,16": "取消"
   },
   "AttachInfos": {
     "3,14": {
       "BindingInfo": {
-        "TableName": "预算数据",
+        "TableName": "TestTab_e",
         "ColumnName": "ID"
       }
     },
     "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "TestTab_e",
+        "ColumnName": "文本"
+      }
+    },
+    "7,14": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
@@ -59,47 +86,14 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "レコード番号"
-      }
-    },
-    "7,14": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
-      },
-      "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "部門"
+        "TableName": "TestTab_e",
+        "ColumnName": "整数"
       }
     },
     "9,14": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
-          }
-        ],
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 4,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "UIPermissions": [
           {
@@ -117,8 +111,8 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "勘定科目"
+        "TableName": "TestTab_e",
+        "ColumnName": "小数"
       }
     },
     "11,14": {
@@ -141,14 +135,13 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "日付"
+        "TableName": "TestTab_e",
+        "ColumnName": "日期"
       }
     },
     "13,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "DecimalPlacesNumber": 4,
+        "$type": "Forguncy.TimeCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "UIPermissions": [
           {
@@ -166,15 +159,14 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "年度"
+        "TableName": "TestTab_e",
+        "ColumnName": "时间"
       }
     },
     "15,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "DecimalPlacesNumber": 4,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "Style": 1,
         "UIPermissions": [
           {
             "Scope": 2,
@@ -191,14 +183,14 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "年"
+        "TableName": "TestTab_e",
+        "ColumnName": "是_否"
       }
     },
     "17,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "DecimalPlacesNumber": 4,
+        "$type": "Forguncy.UserCellType, Forguncy",
+        "Columns": 1,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "UIPermissions": [
           {
@@ -216,15 +208,13 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "月"
+        "TableName": "TestTab_e",
+        "ColumnName": "用户"
       }
     },
     "19,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "DecimalPlacesNumber": 4,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -241,15 +231,13 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "予算"
+        "TableName": "TestTab_e",
+        "ColumnName": "图片"
       }
     },
-    "21,14": {
+    "26,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "DecimalPlacesNumber": 4,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "$type": "Forguncy.AttachmentCelltype, Forguncy",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -266,36 +254,11 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "実績"
+        "TableName": "TestTab_e",
+        "ColumnName": "附件"
       }
     },
-    "23,14": {
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "DecimalPlacesNumber": 4,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
-      },
-      "BindingInfo": {
-        "TableName": "预算数据",
-        "ColumnName": "達成率"
-      }
-    },
-    "25,10": {
+    "33,10": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -309,23 +272,23 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=预算数据_详情页面!K26"
+                        "SerializeProperty": "=TestTab_e_详情页面!K34"
                       }
                     ]
                   },
                   "value": "添加",
-                  "Id": "265208c5-1828-46f9-9911-efa1c6584118"
+                  "Id": "444361e5-c402-4302-b5de-0defe571bb52"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "预算数据",
+                    "TableName": "TestTab_e",
                     "UpdateType": "add",
                     "ConfirmText": "您确定添加这条记录?",
                     "UpdateValues": []
                   }
                 ],
-                "ID": "963d159c-93bd-494c-81e2-7569b8219f09"
+                "ID": "c0aadf72-60c9-4f15-885a-6584e1e8badf"
               },
               {
                 "Condition": {
@@ -334,22 +297,22 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=预算数据_详情页面!K26"
+                        "SerializeProperty": "=TestTab_e_详情页面!K34"
                       }
                     ]
                   },
                   "value": "更改",
-                  "Id": "70016f7f-61af-47d8-9c43-7c9e836d9187"
+                  "Id": "483c2fa4-ce75-466e-bbfe-15ff5437585f"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "预算数据",
+                    "TableName": "TestTab_e",
                     "ConfirmText": "您确定要更新这行记录吗？",
                     "UpdateValues": []
                   }
                 ],
-                "ID": "2a0bcf4a-be71-431c-a1b8-ab3fcdaa9809"
+                "ID": "1a45edc2-2ca3-4c8b-9e4d-cb58af20e364"
               }
             ]
           },
@@ -376,7 +339,7 @@
         ]
       }
     },
-    "25,16": {
+    "33,16": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -409,11 +372,16 @@
     "Styles": [
       {
         "FontWeight": 0
+      },
+      {
+        "Foreground": 1,
+        "Underline": true
       }
     ],
     "Types": {
       "Strs": [
         "Bold",
+        "Blue",
         "Body"
       ]
     },
@@ -427,11 +395,11 @@
       "15,6": 0,
       "17,6": 0,
       "19,6": 0,
-      "21,6": 0,
-      "23,6": 0
+      "26,6": 0,
+      "26,14": 1
     },
     "SheetStyle": {
-      "FontFamily": 1
+      "FontFamily": 2
     }
   },
   "Spans": [
@@ -443,11 +411,10 @@
     "13,14,1,6",
     "15,14,1,6",
     "17,14,1,6",
-    "19,14,1,6",
-    "21,14,1,6",
-    "23,14,1,6",
-    "25,10,1,4",
-    "25,16,1,4"
+    "19,14,6,6",
+    "26,14,6,6",
+    "33,10,1,4",
+    "33,16,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
