@@ -85,18 +85,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:02:25.1914953+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -160,42 +149,18 @@
   },
   {
     "ModuleName": "Pages\\TotalRow",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:03:10.8661969+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "TotalRow",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:03:35.093566+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "预算数据_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:03:53.649135+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "预算数据_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-24T17:03:53.649135+08:00",
     "ModuleType": 1
   }
 ]

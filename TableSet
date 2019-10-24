@@ -1,172 +1,178 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TableSet>
   <Tables>
-    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
-      <Columns>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <AutoIncrement>True</AutoIncrement>
-          <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <MaxLength>-1</MaxLength>
-          <Name>ID</Name>
-          <Required>True</Required>
-          <Unique>True</Unique>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>文本</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Int64</ColumnType>
-          <Name>整数</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Double</ColumnType>
-          <Name>小数</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>日期</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.TimeSpan</ColumnType>
-          <Name>时间</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Boolean</ColumnType>
-          <Name>是_否</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>用户</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>图片</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>附件</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>barcode</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>图片1</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_State</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_AssignTo</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_Creator</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>FGC_CreateDate</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_LastModifier</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>FGC_LastModifyDate</Name>
-        </Item>
-      </Columns>
-      <FlowProcess>
-        <FlowPaths>
-          <Item class="Forguncy.Model.FlowProcessPath" assembly="Forguncy">
-            <Action>
-              <ActionName>提交</ActionName>
-              <GUID>0dce25b0-ed67-437e-b3dc-0b8330b1fa59</GUID>
-            </Action>
-            <Assignees>
-              <Item class="Forguncy.Model.FlowProcessRole" assembly="CommonUtilities">
-                <FlowProcessRoleType>Everyone</FlowProcessRoleType>
+    <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
+      <Items>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>System.Int64</DatabaseColumnType>
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>文本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Int64</ColumnType>
+              <Name>整数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Name>小数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>日期</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.TimeSpan</ColumnType>
+              <Name>时间</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Boolean</ColumnType>
+              <Name>是_否</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>用户</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>图片</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>附件</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>barcode</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>图片1</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_State</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_AssignTo</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_Creator</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_CreateDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_LastModifier</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_LastModifyDate</Name>
+            </Item>
+          </Columns>
+          <FlowProcess>
+            <FlowPaths>
+              <Item class="Forguncy.Model.FlowProcessPath" assembly="Forguncy">
+                <Action>
+                  <ActionName>提交</ActionName>
+                  <GUID>0dce25b0-ed67-437e-b3dc-0b8330b1fa59</GUID>
+                </Action>
+                <Assignees>
+                  <Item class="Forguncy.Model.FlowProcessRole" assembly="CommonUtilities">
+                    <FlowProcessRoleType>Everyone</FlowProcessRoleType>
+                  </Item>
+                </Assignees>
+                <Commands />
+                <StartState>
+                  <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
+                  <StateName>新建</StateName>
+                </StartState>
+                <ToState>
+                  <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
+                  <StateName>等待批准</StateName>
+                </ToState>
               </Item>
-            </Assignees>
-            <Commands />
-            <StartState>
-              <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
-              <StateName>新建</StateName>
-            </StartState>
-            <ToState>
-              <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
-              <StateName>等待批准</StateName>
-            </ToState>
-          </Item>
-          <Item class="Forguncy.Model.FlowProcessPath" assembly="Forguncy">
-            <Action>
-              <ActionName>批准</ActionName>
-              <GUID>52c81be7-a03c-4ce7-b098-139c4b59e23b</GUID>
-            </Action>
-            <Assignees>
-              <Item class="Forguncy.Model.FlowProcessRole" assembly="CommonUtilities">
-                <FlowProcessRoleType>Everyone</FlowProcessRoleType>
+              <Item class="Forguncy.Model.FlowProcessPath" assembly="Forguncy">
+                <Action>
+                  <ActionName>批准</ActionName>
+                  <GUID>52c81be7-a03c-4ce7-b098-139c4b59e23b</GUID>
+                </Action>
+                <Assignees>
+                  <Item class="Forguncy.Model.FlowProcessRole" assembly="CommonUtilities">
+                    <FlowProcessRoleType>Everyone</FlowProcessRoleType>
+                  </Item>
+                </Assignees>
+                <Commands />
+                <StartState>
+                  <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
+                  <StateName>等待批准</StateName>
+                </StartState>
+                <ToState>
+                  <Id>3a1a4217-a3d6-4955-8ee3-84ff13195ec9</Id>
+                  <StateName>批准</StateName>
+                </ToState>
               </Item>
-            </Assignees>
-            <Commands />
-            <StartState>
-              <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
-              <StateName>等待批准</StateName>
-            </StartState>
-            <ToState>
-              <Id>3a1a4217-a3d6-4955-8ee3-84ff13195ec9</Id>
-              <StateName>批准</StateName>
-            </ToState>
-          </Item>
-          <Item class="Forguncy.Model.FlowProcessPath" assembly="Forguncy">
-            <Action>
-              <ActionName>拒绝</ActionName>
-              <GUID>bd9b2636-b7ca-428a-8c3e-c24e9e35d7dd</GUID>
-            </Action>
-            <Assignees>
-              <Item class="Forguncy.Model.FlowProcessRole" assembly="CommonUtilities">
-                <FlowProcessRoleType>Everyone</FlowProcessRoleType>
+              <Item class="Forguncy.Model.FlowProcessPath" assembly="Forguncy">
+                <Action>
+                  <ActionName>拒绝</ActionName>
+                  <GUID>bd9b2636-b7ca-428a-8c3e-c24e9e35d7dd</GUID>
+                </Action>
+                <Assignees>
+                  <Item class="Forguncy.Model.FlowProcessRole" assembly="CommonUtilities">
+                    <FlowProcessRoleType>Everyone</FlowProcessRoleType>
+                  </Item>
+                </Assignees>
+                <Commands />
+                <StartState>
+                  <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
+                  <StateName>等待批准</StateName>
+                </StartState>
+                <ToState>
+                  <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
+                  <StateName>新建</StateName>
+                </ToState>
               </Item>
-            </Assignees>
-            <Commands />
-            <StartState>
-              <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
-              <StateName>等待批准</StateName>
-            </StartState>
-            <ToState>
-              <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
-              <StateName>新建</StateName>
-            </ToState>
-          </Item>
-        </FlowPaths>
-        <FlowStates>
-          <Item class="Forguncy.Model.FlowState" assembly="Forguncy">
-            <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
-            <StateName>新建</StateName>
-          </Item>
-          <Item class="Forguncy.Model.FlowState" assembly="Forguncy">
-            <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
-            <StateName>等待批准</StateName>
-          </Item>
-          <Item class="Forguncy.Model.FlowState" assembly="Forguncy">
-            <Id>3a1a4217-a3d6-4955-8ee3-84ff13195ec9</Id>
-            <StateName>批准</StateName>
-          </Item>
-        </FlowStates>
-        <IsEnabled>True</IsEnabled>
-      </FlowProcess>
-      <Name>表1</Name>
-      <PrimaryKey>
-        <Item type="System.String">
-          <Value>ID</Value>
+            </FlowPaths>
+            <FlowStates>
+              <Item class="Forguncy.Model.FlowState" assembly="Forguncy">
+                <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
+                <StateName>新建</StateName>
+              </Item>
+              <Item class="Forguncy.Model.FlowState" assembly="Forguncy">
+                <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
+                <StateName>等待批准</StateName>
+              </Item>
+              <Item class="Forguncy.Model.FlowState" assembly="Forguncy">
+                <Id>3a1a4217-a3d6-4955-8ee3-84ff13195ec9</Id>
+                <StateName>批准</StateName>
+              </Item>
+            </FlowStates>
+            <IsEnabled>True</IsEnabled>
+          </FlowProcess>
+          <Name>表1</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>0</Weight>
         </Item>
-      </PrimaryKey>
-      <Weight>0</Weight>
+      </Items>
+      <Name>文件夹1</Name>
+      <Weight>1</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -266,6 +272,23 @@
           <ColumnType>System.DateTime</ColumnType>
           <Name>FGC_LastModifyDate</Name>
         </Item>
+        <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+          <AggregateFunction>COUNT</AggregateFunction>
+          <ColumnType>System.Int64</ColumnType>
+          <DataColumnName>勘定科目</DataColumnName>
+          <Name>科目数</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+          <AggregateFunction>SUM</AggregateFunction>
+          <ColumnType>System.Double</ColumnType>
+          <DataColumnName>予算</DataColumnName>
+          <Name>合计</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <Formula>([予算]+[実績])*[達成率]</Formula>
+          <Name>计算结果</Name>
+        </Item>
       </Columns>
       <Name>预算数据</Name>
       <PrimaryKey>
@@ -273,6 +296,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
+      <Weight>2</Weight>
     </Item>
   </Tables>
 </TableSet>

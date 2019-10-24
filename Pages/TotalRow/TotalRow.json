@@ -1,0 +1,187 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "2,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "预算数据",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "ColumnCount": 22,
+        "RowCount": 14,
+        "IsTotalRowVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,2": {
+      "BindingInfo": {
+        "TableName": "预算数据",
+        "ColumnName": "ID"
+      }
+    },
+    "3,6": {
+      "TotalRowSetting": {
+        "FormulaType": 1
+      },
+      "BindingInfo": {
+        "TableName": "预算数据",
+        "ColumnName": "実績"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "楷体",
+        "¥#,##0_);[Red](¥#,##0)",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 2,
+      "3,2": 3,
+      "3,6": 4,
+      "3,23": 5,
+      "4,2": 3,
+      "4,23": 5,
+      "5,2": 3,
+      "5,23": 5,
+      "6,2": 3,
+      "6,23": 5,
+      "7,2": 3,
+      "7,23": 5,
+      "8,2": 3,
+      "8,23": 5,
+      "9,2": 3,
+      "9,23": 5,
+      "10,2": 3,
+      "10,23": 5,
+      "11,2": 3,
+      "11,23": 5,
+      "11,30": 6,
+      "12,2": 3,
+      "12,23": 5,
+      "13,2": 3,
+      "13,23": 5,
+      "14,2": 3,
+      "14,23": 5,
+      "15,2": 7,
+      "15,3": 8,
+      "15,4": 8,
+      "15,5": 8,
+      "15,6": 8,
+      "15,7": 8,
+      "15,8": 8,
+      "15,9": 8,
+      "15,10": 8,
+      "15,11": 8,
+      "15,12": 8,
+      "15,13": 8,
+      "15,14": 8,
+      "15,15": 8,
+      "15,16": 8,
+      "15,17": 8,
+      "15,18": 8,
+      "15,19": 8,
+      "15,20": 8,
+      "15,21": 8,
+      "15,22": 8,
+      "15,23": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "Spans": [
+    "4,2,12,22",
+    "3,2,1,4",
+    "2,2,1,4",
+    "2,6,1,9",
+    "3,6,1,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
