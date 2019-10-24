@@ -177,5 +177,25 @@
     },
     "LockDateTime": "2019-10-24T17:03:35.093566+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "预算数据_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T17:03:53.649135+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "预算数据_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T17:03:53.649135+08:00",
+    "ModuleType": 1
   }
 ]
