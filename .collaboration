@@ -168,16 +168,25 @@
   },
   {
     "ModuleName": "预算数据_详情页面",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "预算数据_列表页面",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-24T17:35:25.3545729+08:00",
+    "LockDateTime": "2019-10-24T19:04:58.8944471+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\预算数据_详情页面.json"
+    ]
+  },
+  {
+    "ModuleName": "预算数据_列表页面",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T19:04:58.8959247+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\预算数据_列表页面.json"
@@ -190,7 +199,7 @@
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-24T18:57:14.9679903+08:00",
+    "LockDateTime": "2019-10-24T19:04:58.896925+08:00",
     "ModuleType": 1
   },
   {
@@ -200,7 +209,7 @@
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-24T18:57:14.9679903+08:00",
+    "LockDateTime": "2019-10-24T19:04:58.8964238+08:00",
     "ModuleType": 1
   }
 ]
