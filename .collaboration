@@ -211,5 +211,15 @@
     },
     "LockDateTime": "2019-10-24T12:26:27.9163378+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "ReadOnlyTest02",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T14:10:17.3507573+08:00",
+    "ModuleType": 1
   }
 ]
