@@ -142,5 +142,15 @@
   {
     "ModuleName": "ROphone02",
     "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\ReadOnly",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-24T17:00:16.2270354+08:00",
+    "ModuleType": 6
   }
 ]
