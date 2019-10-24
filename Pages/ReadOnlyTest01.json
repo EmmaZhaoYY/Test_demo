@@ -530,7 +530,8 @@
     },
     "31,34": {
       "CellType": {
-        "$type": "SelectionPanel.SelectionPanel, SelectionPanel"
+        "$type": "SelectionPanel.SelectionPanel, SelectionPanel",
+        "ListViewName": "表格1"
       }
     },
     "31,43": {
@@ -1539,7 +1540,7 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     }
   },
   "PrintInfo": {
