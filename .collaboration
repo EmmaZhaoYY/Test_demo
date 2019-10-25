@@ -169,6 +169,15 @@
   },
   {
     "ModuleName": "TestTab_e_列表页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-25T08:56:12.9304397+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\TotalRow\\TestTab_e_列表页面.json"
+    ]
   }
 ]
