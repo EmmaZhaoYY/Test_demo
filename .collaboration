@@ -201,7 +201,16 @@
   },
   {
     "ModuleName": "TotalRow-Export01",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-25T14:59:15.9646734+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\TotalRow-Export01.json"
+    ]
   },
   {
     "ModuleName": "TotalRow-Export-01",
@@ -220,7 +229,7 @@
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-25T13:39:41.2605769+08:00",
+    "LockDateTime": "2019-10-25T14:59:15.965172+08:00",
     "ModuleType": 1
   },
   {
@@ -230,7 +239,7 @@
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-25T14:03:15.8913041+08:00",
+    "LockDateTime": "2019-10-25T14:59:15.9656711+08:00",
     "ModuleType": 1
   }
 ]
