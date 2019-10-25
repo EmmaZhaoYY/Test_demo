@@ -278,5 +278,15 @@
     },
     "LockDateTime": "2019-10-25T11:17:55.5788138+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TotalRow-Export01",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-25T11:45:11.2288605+08:00",
+    "ModuleType": 1
   }
 ]
