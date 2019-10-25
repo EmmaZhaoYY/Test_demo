@@ -93,7 +93,19 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-25T10:40:33.7015938+08:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig"
+    ]
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
@@ -243,7 +255,7 @@
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-25T10:27:28.3150979+08:00",
+    "LockDateTime": "2019-10-25T10:40:33.7020933+08:00",
     "ModuleType": 1
   }
 ]
