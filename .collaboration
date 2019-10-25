@@ -221,5 +221,15 @@
     },
     "LockDateTime": "2019-10-25T18:27:08.2172745+08:00",
     "ModuleType": 3
+  },
+  {
+    "ModuleName": "Collaboration01",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-25T18:28:29.818986+08:00",
+    "ModuleType": 1
   }
 ]
