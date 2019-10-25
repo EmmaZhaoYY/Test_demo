@@ -200,5 +200,15 @@
     },
     "LockDateTime": "2019-10-25T18:26:45.6402451+08:00",
     "ModuleType": 4
+  },
+  {
+    "ModuleName": "母版页2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-25T18:27:08.2172745+08:00",
+    "ModuleType": 3
   }
 ]
