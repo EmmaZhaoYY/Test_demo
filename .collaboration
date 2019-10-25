@@ -85,18 +85,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:55:39.7069016+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -104,19 +93,7 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:40:33.7015938+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
@@ -175,118 +152,35 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "TotalRow",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:27:28.3150979+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\TotalRow.json"
-    ]
-  },
-  {
     "ModuleName": "预算数据_详情页面",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:26:54.6081373+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\预算数据_详情页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "预算数据_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T08:58:57.4805762+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\预算数据_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TestTab_e_详情页面",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:26:54.6076382+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\TestTab_e_详情页面.json"
-    ]
-  },
-  {
-    "ModuleName": "TestTab_e_列表页面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:26:17.1401208+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\TestTab_e_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Extend",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:26:17.1401208+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\TotalRow\\DetailPage",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:26:32.1830011+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "TotalRow-Style",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T10:40:33.7020933+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Export",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T11:17:55.5788138+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Export01",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T11:45:11.2288605+08:00",
     "ModuleType": 1
   }
 ]

@@ -355,9 +355,9 @@
       </Columns>
       <ExternalDatabaseInfo>
         <DataBaseType>MySql</DataBaseType>
+        <ESourceConnectString>YsHXU9mAUhHjGvH7ty73hKuAthixmVqlanAquEBaIWqkgIdWHfdPVw4WMnnzzbJBn/G7+k6xJjmkYCmeCFMb2nRzGFTofm5GW+SwPt9rkKw=</ESourceConnectString>
         <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
         <SourceTableName>美妆_店铺信息</SourceTableName>
-        <SourceTableSchema></SourceTableSchema>
       </ExternalDatabaseInfo>
       <Name>美妆_店铺信息</Name>
       <PrimaryKey>
@@ -458,13 +458,24 @@
           <ColumnType>System.DateTime</ColumnType>
           <Name>FGC_LastModifyDate</Name>
         </Item>
+        <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <Formula>[整数]*[小数]</Formula>
+          <Name>公式字段</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+          <AggregateFunction>COUNT</AggregateFunction>
+          <ColumnType>System.Int32</ColumnType>
+          <DataColumnName>文本</DataColumnName>
+          <Name>统计字段1</Name>
+        </Item>
       </Columns>
       <ExternalDatabaseInfo>
         <AllowModifySchema>True</AllowModifySchema>
         <DataBaseType>MySql</DataBaseType>
+        <ESourceConnectString>YsHXU9mAUhHjGvH7ty73hKuAthixmVqlanAquEBaIWqkgIdWHfdPVw4WMnnzzbJBn/G7+k6xJjmkYCmeCFMb2nRzGFTofm5GW+SwPt9rkKw=</ESourceConnectString>
         <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
         <SourceTableName>TestTab_e</SourceTableName>
-        <SourceTableSchema></SourceTableSchema>
       </ExternalDatabaseInfo>
       <Name>TestTab_e</Name>
       <PrimaryKey>
