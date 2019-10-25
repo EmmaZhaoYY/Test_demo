@@ -1,0 +1,793 @@
+{
+  "Rows": {
+    "Count": 45,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Count": 60,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "1,1": "Excel",
+    "1,5": "Excel01",
+    "1,9": "PDF",
+    "1,13": "Print"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, Forguncy",
+            "ListViewName": "表格1",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "Excel",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, Forguncy",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "Excel01",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "PDF",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.PrintCommand, Forguncy"
+          }
+        ],
+        "Text": "Print",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, Forguncy",
+            "TargetTableName": "TotalRow_SqlServer",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "TotalRow_SqlServer",
+                    "ColumnName": "ID"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "='TotalRow-Export-03'!R2"
+                  },
+                  "Id": "c1f5f1da-96f2-4fce-9de6-23ca05653c56"
+                },
+                "Condition2": {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "TotalRow_SqlServer",
+                    "ColumnName": "文本"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "='TotalRow-Export-03'!R2"
+                  },
+                  "Id": "d8438c44-af26-42f2-a59d-e49bc39f70fa"
+                },
+                "RelationType": 1,
+                "Id": "0b83171b-154b-4693-9c65-d794e3d5cc54"
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 2,
+                "ColumnBindingInfo": {
+                  "TableName": "TotalRow_SqlServer",
+                  "ColumnName": "整数"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "='TotalRow-Export-03'!R2"
+                },
+                "Id": "0c595f38-b971-409a-851c-20761ba5b40d"
+              },
+              "RelationType": 1,
+              "Id": "dc2b23da-795b-4cef-8ef5-9404f6fcb925"
+            },
+            "Params": [
+              "=R2"
+            ],
+            "ID": "128d2e813d0449b6b6111b3af410fbf5"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "RowHeaderContextMenu": {
+          "ContextMenuItems": [
+            {
+              "Text": "插入",
+              "Visible": true
+            },
+            {
+              "Text": "删除",
+              "Visible": true
+            }
+          ]
+        },
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "TotalRow_SqlServer",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "ColumnCount": 39,
+        "RowCount": 12,
+        "IsTotalRowVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "AllowDragFill": true,
+        "AllowDragMove": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "TotalRow_SqlServer",
+            "ColumnName": "ID"
+          },
+          "Value": "1",
+          "Id": "70eaffab-5b7c-4579-9246-a6d298c9534f"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "totalrow样式"
+      }
+    },
+    "4,1": {
+      "TotalRowSetting": {
+        "StaticText": "总计",
+        "StyleInfo": {
+          "Parent": ""
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "ID"
+      }
+    },
+    "4,3": {
+      "TotalRowSetting": {
+        "FormulaType": 2,
+        "StyleInfo": {
+          "Parent": "",
+          "Background": "Accent 6 80"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "文本"
+      }
+    },
+    "4,7": {
+      "TotalRowSetting": {
+        "FormulaType": 1,
+        "StyleInfo": {
+          "Parent": "",
+          "FontWeight": "Bold",
+          "Foreground": "#FFC00000",
+          "Formatter": " ¥#,##0.00_);[Red] ¥(#,##0.00)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "整数"
+      }
+    },
+    "4,11": {
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Parent": "",
+          "FontStyle": "Italic",
+          "HorizontalAlignment": 1,
+          "Background": "Accent 6 80",
+          "Foreground": "Accent 5 0"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "小数"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.ThreeColorScaleRule, Forguncy",
+            "MaximumColor": "#FFF8696B",
+            "MaximumType": 3,
+            "MidpointColor": "#FFFFEF9C",
+            "MidpointType": 4,
+            "MidpointValue": 50,
+            "MinimumColor": "#FF63BE7B",
+            "MinimumType": 2
+          }
+        ]
+      }
+    },
+    "4,15": {
+      "TotalRowSetting": {
+        "FormulaType": 3,
+        "StyleInfo": {
+          "Parent": "",
+          "WordWrap": true,
+          "Formatter": "[DBNum1][$-804]yyyy\"年\"m\"月\"d\"日\";@"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "日期"
+      }
+    },
+    "4,20": {
+      "CellComment": {
+        "Comments": "Time Count\r\n"
+      },
+      "TotalRowSetting": {
+        "FormulaType": 4
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "时间"
+      }
+    },
+    "4,24": {
+      "TotalRowSetting": {
+        "FormulaType": 2
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "是_否"
+      }
+    },
+    "4,27": {
+      "TotalRowSetting": {
+        "FormulaType": 2
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "用户"
+      }
+    },
+    "4,31": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TotalRowSetting": {
+        "FormulaType": 2
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "图片",
+        "IsImagePath": true
+      }
+    },
+    "4,35": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TotalRowSetting": {
+        "FormulaType": 2
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "附件"
+      }
+    },
+    "16,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "TotalRow_SqlServer",
+        "RowIndex": 16,
+        "ColumnIndex": 1,
+        "ColumnCount": 20,
+        "RowCount": 9,
+        "IsTotalRowVisible": true,
+        "IsTotalRowAtFirstRow": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "17,1": {
+      "TotalRowSetting": {
+        "FormulaType": 2
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "文本"
+      }
+    },
+    "17,4": {
+      "TotalRowSetting": {
+        "FormulaType": 1,
+        "StyleInfo": {
+          "Parent": "",
+          "Formatter": "0.00"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "公式字段1"
+      }
+    },
+    "17,8": {
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Parent": "",
+          "Formatter": "0.00"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "公式字段2"
+      }
+    },
+    "17,12": {
+      "TotalRowSetting": {
+        "FormulaType": 2
+      },
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "公式字段3"
+      }
+    },
+    "17,16": {
+      "BindingInfo": {
+        "TableName": "TotalRow_SqlServer",
+        "ColumnName": "统计字段1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Background": 3,
+        "Foreground": 4,
+        "Formatter": 5
+      },
+      {
+        "FontStyle": 6,
+        "HorizontalAlignment": 7
+      },
+      {
+        "Foreground": 8,
+        "Underline": true
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 9
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "DarkGray",
+        "#FF639B6A",
+        "Accent 3 0",
+        "[$$-409] #,##0.00;[$$-409] (#,##0.00);[$$-409] \"-\"??;@",
+        "Italic",
+        "Center",
+        "Blue",
+        "0.00"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 0,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 0,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 0,
+      "1,14": 1,
+      "1,15": 1,
+      "2,22": 1,
+      "3,1": 2,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 3,
+      "3,17": 3,
+      "3,18": 3,
+      "3,19": 3,
+      "3,20": 3,
+      "3,21": 3,
+      "3,22": 3,
+      "3,23": 3,
+      "3,24": 3,
+      "3,25": 3,
+      "3,26": 3,
+      "3,27": 3,
+      "3,28": 3,
+      "3,29": 3,
+      "3,30": 3,
+      "3,31": 3,
+      "3,32": 3,
+      "3,33": 3,
+      "3,34": 3,
+      "3,35": 3,
+      "3,36": 3,
+      "3,37": 3,
+      "3,38": 3,
+      "3,39": 4,
+      "4,1": 5,
+      "4,7": 6,
+      "4,15": 7,
+      "4,35": 8,
+      "4,39": 9,
+      "5,1": 5,
+      "5,39": 9,
+      "6,1": 5,
+      "6,39": 9,
+      "7,1": 5,
+      "7,39": 9,
+      "8,1": 5,
+      "8,39": 9,
+      "9,1": 5,
+      "9,39": 9,
+      "10,1": 5,
+      "10,39": 9,
+      "11,1": 5,
+      "11,39": 9,
+      "12,1": 5,
+      "12,39": 9,
+      "13,1": 5,
+      "13,39": 9,
+      "14,1": 10,
+      "14,2": 11,
+      "14,3": 11,
+      "14,4": 11,
+      "14,5": 11,
+      "14,6": 11,
+      "14,7": 11,
+      "14,8": 11,
+      "14,9": 11,
+      "14,10": 11,
+      "14,11": 11,
+      "14,12": 11,
+      "14,13": 11,
+      "14,14": 11,
+      "14,15": 11,
+      "14,16": 11,
+      "14,17": 11,
+      "14,18": 11,
+      "14,19": 11,
+      "14,20": 11,
+      "14,21": 11,
+      "14,22": 11,
+      "14,23": 11,
+      "14,24": 11,
+      "14,25": 11,
+      "14,26": 11,
+      "14,27": 11,
+      "14,28": 11,
+      "14,29": 11,
+      "14,30": 11,
+      "14,31": 11,
+      "14,32": 11,
+      "14,33": 11,
+      "14,34": 11,
+      "14,35": 11,
+      "14,36": 11,
+      "14,37": 11,
+      "14,38": 11,
+      "14,39": 12,
+      "16,1": 2,
+      "16,2": 3,
+      "16,3": 3,
+      "16,4": 13,
+      "16,5": 3,
+      "16,6": 3,
+      "16,7": 3,
+      "16,8": 13,
+      "16,9": 3,
+      "16,10": 3,
+      "16,11": 3,
+      "16,12": 13,
+      "16,13": 3,
+      "16,14": 3,
+      "16,15": 3,
+      "16,16": 13,
+      "16,17": 3,
+      "16,18": 3,
+      "16,19": 3,
+      "16,20": 4,
+      "17,1": 5,
+      "17,4": 14,
+      "17,8": 14,
+      "17,12": 1,
+      "17,16": 1,
+      "17,20": 9,
+      "18,1": 5,
+      "18,20": 9,
+      "19,1": 5,
+      "19,20": 9,
+      "20,1": 5,
+      "20,20": 9,
+      "21,1": 5,
+      "21,20": 9,
+      "22,1": 5,
+      "22,20": 9,
+      "23,1": 5,
+      "23,20": 9,
+      "24,1": 10,
+      "24,2": 11,
+      "24,3": 11,
+      "24,4": 11,
+      "24,5": 11,
+      "24,6": 11,
+      "24,7": 11,
+      "24,8": 11,
+      "24,9": 11,
+      "24,10": 11,
+      "24,11": 11,
+      "24,12": 11,
+      "24,13": 11,
+      "24,14": 11,
+      "24,15": 11,
+      "24,16": 11,
+      "24,17": 11,
+      "24,18": 11,
+      "24,19": 11,
+      "24,20": 12
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,1,10,39",
+    "4,1,1,2",
+    "4,3,1,4",
+    "4,7,1,4",
+    "4,11,1,4",
+    "4,15,1,5",
+    "4,20,1,4",
+    "4,24,1,3",
+    "4,27,1,4",
+    "1,1,1,3",
+    "1,5,1,3",
+    "1,9,1,3",
+    "1,13,1,3",
+    "4,35,1,5",
+    "4,31,1,4",
+    "1,17,1,15",
+    "18,1,7,20",
+    "17,1,1,3",
+    "17,4,1,4",
+    "17,8,1,4",
+    "17,12,1,4",
+    "17,16,1,5",
+    "3,1,1,2",
+    "3,3,1,4",
+    "3,7,1,4",
+    "3,11,1,4",
+    "3,15,1,5",
+    "3,20,1,4",
+    "3,24,1,3",
+    "3,27,1,4",
+    "3,31,1,4",
+    "3,35,1,5",
+    "16,1,1,3",
+    "16,4,1,4",
+    "16,8,1,4",
+    "16,12,1,4",
+    "16,16,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

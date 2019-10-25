@@ -85,18 +85,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T13:36:20.6804527+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -187,59 +176,19 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "TotalRow-Export",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T13:39:19.5137994+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\TotalRow-Export.json"
-    ]
-  },
-  {
     "ModuleName": "TotalRow-Export01",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T14:59:15.9646734+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow-Export01.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Export-01",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T13:39:19.5137994+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Export-02",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T14:59:15.965172+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Export-03",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-25T14:59:15.9656711+08:00",
     "ModuleType": 1
   }
 ]

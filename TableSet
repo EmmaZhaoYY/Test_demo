@@ -298,73 +298,202 @@
       </PrimaryKey>
       <Weight>1</Weight>
     </Item>
-    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
-      <Columns>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <AutoIncrement>True</AutoIncrement>
-          <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>bigint</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>ID</Name>
-          <Required>True</Required>
-          <Unique>True</Unique>
+    <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
+      <Items>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>varchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>500</MaxLength>
+              <Name>文本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>整数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>double</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>小数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <DatabaseColumnType>datetime</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>日期</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.TimeSpan</ColumnType>
+              <DatabaseColumnType>time</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>时间</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Boolean</ColumnType>
+              <DatabaseColumnType>tinyint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>是_否</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>varchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>500</MaxLength>
+              <Name>用户</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>varchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>500</MaxLength>
+              <Name>图片</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>varchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>500</MaxLength>
+              <Name>附件</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_Creator</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_CreateDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_LastModifier</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_LastModifyDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Formula>[整数]*[小数]</Formula>
+              <Name>公式字段</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+              <AggregateFunction>COUNT</AggregateFunction>
+              <ColumnType>System.Int32</ColumnType>
+              <DataColumnName>文本</DataColumnName>
+              <Name>统计字段1</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Formula>[整数]*[小数]</Formula>
+              <Name>公式字段1</Name>
+            </Item>
+          </Columns>
+          <ExternalDatabaseInfo>
+            <AllowModifySchema>True</AllowModifySchema>
+            <DataBaseType>MySql</DataBaseType>
+            <ESourceConnectString>QYUKapOmCY1MT8dyVvVJTy5wf/hIasH755BESXPL0byHiBa5kIFIrx98XjWyMMuE+RoPrse9Mr0jRDBkQYYI48CgEBNloDEUwkD6Uk8HSfU=</ESourceConnectString>
+            <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
+            <SourceTableName>TestTab_e</SourceTableName>
+          </ExternalDatabaseInfo>
+          <Name>TestTab_e</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>0</Weight>
         </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Double</ColumnType>
-          <DatabaseColumnType>double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>门店编号</Name>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>double</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>门店编号</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>varchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>500</MaxLength>
+              <Name>门店名称</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>double</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>地区编号</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <DatabaseColumnType>datetime</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>开店时间</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>double</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>规模___</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>varchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>500</MaxLength>
+              <Name>门店分类</Name>
+            </Item>
+          </Columns>
+          <ExternalDatabaseInfo>
+            <DataBaseType>MySql</DataBaseType>
+            <ESourceConnectString>QYUKapOmCY1MT8dyVvVJTy5wf/hIasH755BESXPL0byHiBa5kIFIrx98XjWyMMuE+RoPrse9Mr0jRDBkQYYI48CgEBNloDEUwkD6Uk8HSfU=</ESourceConnectString>
+            <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
+            <SourceTableName>美妆_店铺信息</SourceTableName>
+          </ExternalDatabaseInfo>
+          <Name>美妆_店铺信息</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>1</Weight>
         </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>varchar</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>500</MaxLength>
-          <Name>门店名称</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Double</ColumnType>
-          <DatabaseColumnType>double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>地区编号</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <DatabaseColumnType>datetime</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>开店时间</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Double</ColumnType>
-          <DatabaseColumnType>double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>规模___</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>varchar</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>500</MaxLength>
-          <Name>门店分类</Name>
-        </Item>
-      </Columns>
-      <ExternalDatabaseInfo>
-        <DataBaseType>MySql</DataBaseType>
-        <ESourceConnectString>YsHXU9mAUhHjGvH7ty73hKuAthixmVqlanAquEBaIWqkgIdWHfdPVw4WMnnzzbJBn/G7+k6xJjmkYCmeCFMb2nRzGFTofm5GW+SwPt9rkKw=</ESourceConnectString>
-        <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
-        <SourceTableName>美妆_店铺信息</SourceTableName>
-      </ExternalDatabaseInfo>
-      <Name>美妆_店铺信息</Name>
-      <PrimaryKey>
-        <Item type="System.String">
-          <Value>ID</Value>
-        </Item>
-      </PrimaryKey>
+      </Items>
+      <Name>Mysql</Name>
       <Weight>2</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
@@ -372,7 +501,7 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>bigint</DatabaseColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
           <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
@@ -380,67 +509,13 @@
           <Unique>True</Unique>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>varchar</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>500</MaxLength>
-          <Name>文本</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>bigint</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
           <Name>整数</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
-          <DatabaseColumnType>double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
           <Name>小数</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <DatabaseColumnType>datetime</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>日期</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.TimeSpan</ColumnType>
-          <DatabaseColumnType>time</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>时间</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Boolean</ColumnType>
-          <DatabaseColumnType>tinyint</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>是_否</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>varchar</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>500</MaxLength>
-          <Name>用户</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>varchar</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>500</MaxLength>
-          <Name>图片</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>varchar</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>500</MaxLength>
-          <Name>附件</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -461,28 +536,562 @@
         <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <Formula>[整数]*[小数]</Formula>
-          <Name>公式字段</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
-          <AggregateFunction>COUNT</AggregateFunction>
-          <ColumnType>System.Int32</ColumnType>
-          <DataColumnName>文本</DataColumnName>
-          <Name>统计字段1</Name>
+          <Name>公式字段1</Name>
         </Item>
       </Columns>
-      <ExternalDatabaseInfo>
-        <AllowModifySchema>True</AllowModifySchema>
-        <DataBaseType>MySql</DataBaseType>
-        <ESourceConnectString>YsHXU9mAUhHjGvH7ty73hKuAthixmVqlanAquEBaIWqkgIdWHfdPVw4WMnnzzbJBn/G7+k6xJjmkYCmeCFMb2nRzGFTofm5GW+SwPt9rkKw=</ESourceConnectString>
-        <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
-        <SourceTableName>TestTab_e</SourceTableName>
-      </ExternalDatabaseInfo>
-      <Name>TestTab_e</Name>
+      <Name>built_intable</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
+      <Weight>5</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
+      <Items>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>文本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>整数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>小数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <DatabaseColumnType>datetime</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>日期</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.TimeSpan</ColumnType>
+              <DatabaseColumnType>time</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>时间</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Boolean</ColumnType>
+              <DatabaseColumnType>bit</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>是_否</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>用户</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>图片</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>附件</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_Creator</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_CreateDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_LastModifier</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_LastModifyDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Formula>[整数]*[小数]</Formula>
+              <Name>公式字段1</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Formula>[整数]+[小数]</Formula>
+              <Name>公式字段2</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Formula>UPPER([文本])</Formula>
+              <Name>公式字段3</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+              <AggregateFunction>COUNT</AggregateFunction>
+              <ColumnType>System.Int32</ColumnType>
+              <DataColumnName>文本</DataColumnName>
+              <Name>统计字段1</Name>
+            </Item>
+          </Columns>
+          <ExternalDatabaseInfo>
+            <AllowModifySchema>True</AllowModifySchema>
+            <DataBaseType>SqlServer</DataBaseType>
+            <ESourceConnectString>aqsaXGEkdq72QsFhWJ0p5n23Ukl4BfFdtNLyU5fKhnQDkrVCyeFgJeTJhJ2cbFR16Op24S2VYBDStOMlVwjLADx2+l3LGsil1RJzfa1BkMdEO17NNao2naLbgBJ9Hn9y9R0THB3zSiWkIrw2VuS8+w==</ESourceConnectString>
+            <SourceConnectString>Data Source=ssql12orcl11;Initial Catalog=xa-dd3-emma;Persist Security Info=True;User ID=sa;Password=xA123456</SourceConnectString>
+            <SourceTableName>TotalRow_SqlServer</SourceTableName>
+            <SourceTableSchema>dbo</SourceTableSchema>
+          </ExternalDatabaseInfo>
+          <Name>TotalRow_SqlServer</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>0</Weight>
+        </Item>
+      </Items>
+      <Name>SqlServer</Name>
+      <Weight>4</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
+      <Items>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>文本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>整数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>小数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <DatabaseColumnType>DATE</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>日期</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.TimeSpan</ColumnType>
+              <DatabaseColumnType>INTERVAL DAY(2) TO SECOND(6)</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>时间</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Boolean</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>是_否</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>用户</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>图片</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>附件</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_Creator</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_CreateDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_LastModifier</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_LastModifyDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Formula>UPPER([文本])</Formula>
+              <Name>文本upper</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+              <AggregateFunction>COUNT</AggregateFunction>
+              <ColumnType>System.Int32</ColumnType>
+              <DataColumnName>文本</DataColumnName>
+              <Name>统计字段1</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <Formula>[整数]*[小数]</Formula>
+              <Name>成绩</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <Formula>YEAR([日期])</Formula>
+              <Name>年份</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <Formula>MONTH([日期])</Formula>
+              <Name>月份</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Formula>CONCATENATE([文本],[文本])</Formula>
+              <Name>链接</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <Formula>[整数]+[小数]</Formula>
+              <Name>公式字段1</Name>
+            </Item>
+          </Columns>
+          <ExternalDatabaseInfo>
+            <AllowModifySchema>True</AllowModifySchema>
+            <DataBaseType>Oracle</DataBaseType>
+            <ESourceConnectString>aqsaXGEkdq72QsFhWJ0p5jkaBd+F4ahB7RqpPOgcYUZjWWdpBF0W5Wtetec2tX6dfuTXN+mHzNnGjjFg5WOaKZ6K9joQAM1wetONmKGMo2A=</ESourceConnectString>
+            <SourceConnectString>Data Source=ssql12orcl11;User ID=oracletest;Password=xA123456;Unicode=True</SourceConnectString>
+            <SourceTableName>oracletablefortotalrow</SourceTableName>
+            <SourceTableSchema></SourceTableSchema>
+          </ExternalDatabaseInfo>
+          <Name>oracletablefortotalrow</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>0</Weight>
+        </Item>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>bigint</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>レコード番号</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>部門</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>勘定科目</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>日付</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>年度</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>年</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>月</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>予算</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>実績</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <DatabaseColumnType>float</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>達成率</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>nvarchar</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>用户</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Formula>[年]*[月]</Formula>
+              <Name>公式字段1</Name>
+            </Item>
+          </Columns>
+          <ExternalDatabaseInfo>
+            <DataBaseType>SqlServer</DataBaseType>
+            <ESourceConnectString>aqsaXGEkdq72QsFhWJ0p5n23Ukl4BfFdtNLyU5fKhnQDkrVCyeFgJeTJhJ2cbFR16Op24S2VYBDStOMlVwjLADx2+l3LGsil1RJzfa1BkMdEO17NNao2naLbgBJ9Hn9y9R0THB3zSiWkIrw2VuS8+w==</ESourceConnectString>
+            <SourceConnectString>Data Source=ssql12orcl11;Initial Catalog=xa-dd3-emma;Persist Security Info=True;User ID=sa;Password=xA123456</SourceConnectString>
+            <SourceTableName>予算実績</SourceTableName>
+            <SourceTableSchema>dbo</SourceTableSchema>
+          </ExternalDatabaseInfo>
+          <Name>予算実績</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>1</Weight>
+        </Item>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>订单编号</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <DatabaseColumnType>DATE</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>订购日期</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>类别名称</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>产品名称</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>购买数量</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>产品单价</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>产品成本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>折扣</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>订单金额</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Decimal</ColumnType>
+              <DatabaseColumnType>NUMBER</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>订单利润</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>销售大区</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>销售省份</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>销售城市</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>销售门店</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>销售顾问</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>支付方式</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>客户姓名</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <DatabaseColumnType>NVARCHAR2</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>2000</MaxLength>
+              <Name>客户电话</Name>
+            </Item>
+          </Columns>
+          <ExternalDatabaseInfo>
+            <DataBaseType>Oracle</DataBaseType>
+            <ESourceConnectString>aqsaXGEkdq72QsFhWJ0p5jkaBd+F4ahB7RqpPOgcYUZjWWdpBF0W5Wtetec2tX6dfuTXN+mHzNnGjjFg5WOaKZ6K9joQAM1wetONmKGMo2A=</ESourceConnectString>
+            <SourceConnectString>Data Source=ssql12orcl11;User ID=oracletest;Password=xA123456;Unicode=True</SourceConnectString>
+            <SourceTableName>销售明细</SourceTableName>
+            <SourceTableSchema></SourceTableSchema>
+          </ExternalDatabaseInfo>
+          <Name>销售明细</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>2</Weight>
+        </Item>
+      </Items>
+      <Name>Oracle</Name>
       <Weight>3</Weight>
     </Item>
   </Tables>

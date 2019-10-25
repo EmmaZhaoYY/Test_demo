@@ -6,7 +6,9 @@
       "4": 30.0,
       "16": 30.0,
       "17": 30.0,
-      "18": 30.0
+      "18": 30.0,
+      "31": 30.0,
+      "32": 30.0
     },
     "Count": 46
   },
@@ -15,6 +17,7 @@
     "DefaultSize": 30.0
   },
   "Values": {
+    "0,2": "built-in table",
     "1,2": "Excel",
     "1,6": "PDF",
     "1,10": "Table",
@@ -167,6 +170,7 @@
     },
     "4,4": {
       "TotalRowSetting": {
+        "FormulaType": 5,
         "StaticText": "总计"
       },
       "BindingInfo": {
