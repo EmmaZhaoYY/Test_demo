@@ -26,6 +26,32 @@
         "ImageSizeMode": 0,
         "ImagePath": "pointed.png"
       }
+    },
+    "2,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+            "Message": "Message box!"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
     }
   },
   "StyleDatas": {
@@ -39,7 +65,8 @@
     }
   },
   "Spans": [
-    "2,2,4,4"
+    "2,2,4,4",
+    "2,8,2,23"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

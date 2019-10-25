@@ -149,7 +149,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Export-03'!R2"
                   },
-                  "Id": "c1f5f1da-96f2-4fce-9de6-23ca05653c56"
+                  "Id": "bf8fa0b1-7de4-4833-a7cc-723c5fee62a4"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -162,10 +162,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Export-03'!R2"
                   },
-                  "Id": "d8438c44-af26-42f2-a59d-e49bc39f70fa"
+                  "Id": "cc7e3599-340b-4297-bb73-0f14b95e1120"
                 },
                 "RelationType": 1,
-                "Id": "0b83171b-154b-4693-9c65-d794e3d5cc54"
+                "Id": "71ec2883-fae4-41e7-b73e-2b4e11830acf"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -178,10 +178,10 @@
                   "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                   "SerializeProperty": "='TotalRow-Export-03'!R2"
                 },
-                "Id": "0c595f38-b971-409a-851c-20761ba5b40d"
+                "Id": "df264797-66bb-4377-b083-19903979422a"
               },
               "RelationType": 1,
-              "Id": "dc2b23da-795b-4cef-8ef5-9404f6fcb925"
+              "Id": "9fd02da0-7408-4a09-9b3b-9d080ba84a8b"
             },
             "Params": [
               "=R2"
@@ -241,7 +241,7 @@
             "ColumnName": "ID"
           },
           "Value": "1",
-          "Id": "70eaffab-5b7c-4579-9246-a6d298c9534f"
+          "Id": "30112d76-3a73-44c4-a57c-01e0c0a96c1a"
         },
         "TopCondition": null,
         "ListViewStyleName": "totalrow样式"

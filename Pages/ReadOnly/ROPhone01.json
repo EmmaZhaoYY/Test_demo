@@ -182,7 +182,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell01 = Forguncy.Page.getCell(\"textbox01\");\r\ncell01.setReadOnly(false);\r\n\r\nvar cell02 = Forguncy.Page.getCell(\"textbox02\");\r\ncell02.setReadOnly(false);\r\n\r\nvar cell03 = Forguncy.Page.getCell(\"textbox03\");\r\ncell03.setReadOnly(false);",
-            "ID": "7879b88dc553499c9634511f208e84b0"
+            "ID": "8f9d4a527bee42879a18af2aad35695d"
           }
         ],
         "Text": "JS读写",
@@ -312,7 +312,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell01 = Forguncy.Page.getCell(\"textbox01\");\r\ncell01.setReadOnly(true);\r\n\r\nvar cell02 = Forguncy.Page.getCell(\"textbox02\");\r\ncell02.setReadOnly(true);\r\n\r\nvar cell03 = Forguncy.Page.getCell(\"textbox03\");\r\ncell03.setReadOnly(true);",
-            "ID": "0c2b1960769942b18d80385daef2cc76"
+            "ID": "abc0ea17d4d44fe69e66f2fc5b1a2c12"
           }
         ],
         "Text": "JS只读",

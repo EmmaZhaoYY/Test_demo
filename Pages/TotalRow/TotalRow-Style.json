@@ -127,7 +127,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Style'!L2"
                   },
-                  "Id": "ea6c6147-d8f4-4765-9a88-56cd271992c6"
+                  "Id": "edfc3a6b-9de8-4d26-8631-46b1a81a44d5"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -140,10 +140,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Style'!L2"
                   },
-                  "Id": "5bbec5b9-3978-4763-bcc5-3adca48da291"
+                  "Id": "0aa1e97e-83f7-4a53-927f-cf5c9cb8b322"
                 },
                 "RelationType": 1,
-                "Id": "993e2eec-8f10-46fa-abbc-394297af2ca1"
+                "Id": "efa1801c-ae0d-4b27-a993-8c599555ddcf"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -156,10 +156,10 @@
                   "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                   "SerializeProperty": "='TotalRow-Style'!L2"
                 },
-                "Id": "02faac8f-6439-4e6c-8b07-009db0e277d2"
+                "Id": "970fe8d5-24aa-40bd-acb7-202cacf9a198"
               },
               "RelationType": 1,
-              "Id": "0f7f08d9-e273-41cc-8a76-886d285fba82"
+              "Id": "a20bf87d-4fd4-41fd-863b-203fbbdd60eb"
             },
             "Params": [
               "=L2"
@@ -2621,6 +2621,7 @@
     "32,29,1,4",
     "32,33,1,3",
     "32,36,1,3",
+    "1,25,1,3",
     "3,42,1,2",
     "3,44,1,3",
     "3,47,1,3",
@@ -2648,8 +2649,7 @@
     "31,25,1,4",
     "31,29,1,4",
     "31,33,1,3",
-    "31,36,1,3",
-    "1,25,1,3"
+    "31,36,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

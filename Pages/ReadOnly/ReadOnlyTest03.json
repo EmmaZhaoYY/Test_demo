@@ -61,7 +61,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(true);",
-            "ID": "0cfdf3b7218c4c219d91f153af58ce08"
+            "ID": "30d472ed749e4cdcbdd45de28bbfa0e0"
           }
         ],
         "Text": "Javscript",
@@ -157,7 +157,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(false);",
-            "ID": "beaf4a06165840d0a4b0a848d896f805"
+            "ID": "29c97b2306ee4e9ba3e5713e7120dfad"
           }
         ],
         "Text": "Javascript",
@@ -283,7 +283,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"muiltline\");\r\ncell.setReadOnly(false);",
-            "ID": "ed5bb480889f4535b67edc0911a2acf2"
+            "ID": "6d9f409145fd44c8bb6f76f95914245f"
           }
         ],
         "Text": "Javascript",
@@ -453,7 +453,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var p = Forguncy.Page;\r\nvar mylist = p.getListView(\"表格1\");\r\n p.getCell(0,\"date\").setReadOnly(true);",
-            "ID": "6cc3e6ceca774c30a03773e332c63c04"
+            "ID": "c6bda73f8ee84642b4360ec31375b992"
           }
         ],
         "UIPermissions": [
