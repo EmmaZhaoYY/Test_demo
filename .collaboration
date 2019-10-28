@@ -238,6 +238,15 @@
   },
   {
     "ModuleName": "Collboration",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:56:49.1556354+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Permission_Colloboration\\Collboration.json"
+    ]
   }
 ]
