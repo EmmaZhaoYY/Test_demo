@@ -1,0 +1,302 @@
+{
+  "Rows": {
+    "Count": 45,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "9,32": "Hyperlink"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "用户信息视图",
+        "RowIndex": 1,
+        "ColumnIndex": 2,
+        "ColumnCount": 29,
+        "RowCount": 10,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "1,32": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,2": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "用户名"
+      }
+    },
+    "2,6": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "全名"
+      }
+    },
+    "2,10": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "邮件"
+      }
+    },
+    "2,17": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "角色"
+      }
+    },
+    "2,21": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "组织上级"
+      }
+    },
+    "3,32": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "5,32": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "timg.jpg"
+      }
+    },
+    "9,32": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "Text": "Hyperlink",
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": true
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Blue",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "1,18": 1,
+      "1,19": 1,
+      "1,20": 1,
+      "1,21": 1,
+      "1,22": 1,
+      "1,23": 1,
+      "1,24": 1,
+      "1,25": 1,
+      "1,26": 1,
+      "1,27": 1,
+      "1,28": 1,
+      "1,29": 1,
+      "1,30": 2,
+      "2,2": 3,
+      "2,30": 4,
+      "3,2": 3,
+      "3,30": 4,
+      "4,2": 3,
+      "4,30": 4,
+      "5,2": 3,
+      "5,30": 4,
+      "6,2": 3,
+      "6,30": 4,
+      "7,2": 3,
+      "7,30": 4,
+      "8,2": 3,
+      "8,30": 4,
+      "9,2": 3,
+      "9,30": 4,
+      "9,32": 5,
+      "10,2": 6,
+      "10,3": 7,
+      "10,4": 7,
+      "10,5": 7,
+      "10,6": 7,
+      "10,7": 7,
+      "10,8": 7,
+      "10,9": 7,
+      "10,10": 7,
+      "10,11": 7,
+      "10,12": 7,
+      "10,13": 7,
+      "10,14": 7,
+      "10,15": 7,
+      "10,16": 7,
+      "10,17": 7,
+      "10,18": 7,
+      "10,19": 7,
+      "10,20": 7,
+      "10,21": 7,
+      "10,22": 7,
+      "10,23": 7,
+      "10,24": 7,
+      "10,25": 7,
+      "10,26": 7,
+      "10,27": 7,
+      "10,28": 7,
+      "10,29": 7,
+      "10,30": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "3,2,8,29",
+    "1,2,1,4",
+    "2,2,1,4",
+    "1,6,1,4",
+    "2,6,1,4",
+    "1,10,1,7",
+    "2,10,1,7",
+    "1,17,1,4",
+    "2,17,1,4",
+    "1,21,1,10",
+    "2,21,1,10",
+    "1,32,1,7",
+    "3,32,1,7",
+    "5,32,3,4",
+    "9,32,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
