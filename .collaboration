@@ -46,7 +46,7 @@
       "UserName": "Sunny",
       "Email": "Emma@mail.com"
     },
-    "LockDateTime": "2019-10-28T11:33:37.8086542+08:00",
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
     "ModuleType": 8,
     "ToRemoveFiles": [
       "ApplicationSettings",
@@ -168,5 +168,125 @@
   {
     "ModuleName": "Pages\\Permission",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_修改密码",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改密码_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_忘记密码",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_忘记密码_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改用户信息",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改用户信息_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_登录",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_登录_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T11:55:13.7393591+08:00",
+    "ModuleType": 2
   }
 ]
