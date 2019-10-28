@@ -21,7 +21,16 @@
   },
   {
     "ModuleName": "ReadOnlyTest",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:57:15.7536192+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ReadOnly\\ReadOnlyTest.json"
+    ]
   },
   {
     "ModuleName": "ReadOnlyTest01",
@@ -189,7 +198,19 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:57:15.7496219+08:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig"
+    ]
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
@@ -230,7 +251,7 @@
       "UserName": "EmmaZhao",
       "Email": "Emma@mail.com"
     },
-    "LockDateTime": "2019-10-28T15:56:29.369615+08:00",
+    "LockDateTime": "2019-10-28T15:57:15.7546186+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\Permission_Colloboration\\phonepage (2).json"
@@ -243,7 +264,7 @@
       "UserName": "EmmaZhao",
       "Email": "Emma@mail.com"
     },
-    "LockDateTime": "2019-10-28T15:56:49.1556354+08:00",
+    "LockDateTime": "2019-10-28T15:57:15.7556181+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\Permission_Colloboration\\Collboration.json"
