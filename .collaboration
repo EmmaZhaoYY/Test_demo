@@ -161,7 +161,16 @@
   },
   {
     "ModuleName": "NewPage",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:06:23.018338+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Permission_Colloboration\\RenamePageFolder\\NewPage.json"
+    ]
   },
   {
     "ModuleName": "Pages\\Permission_Colloboration",
@@ -225,6 +234,13 @@
   },
   {
     "ModuleName": "Pages\\Permission_Colloboration\\RenamePageFolder",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:06:23.018338+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   }
 ]
