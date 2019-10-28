@@ -45,40 +45,15 @@
   },
   {
     "ModuleName": "Pages\\TotalRow\\DetailPage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T17:13:20.9694499+08:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": []
+    "ModuleType": 6
   },
   {
     "ModuleName": "TestTab_e_详情页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T17:13:20.9694499+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\DetailPage\\TestTab_e_详情页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "预算数据_详情页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T17:13:20.9694499+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TotalRow\\DetailPage\\预算数据_详情页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TotalRow-Export-01",
