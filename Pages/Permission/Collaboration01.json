@@ -25,6 +25,8 @@
     "7,17": "button",
     "8,17": "visible",
     "9,17": "Visible",
+    "9,38": 1250,
+    "9,45": 125,
     "12,17": "hyperlink",
     "14,17": "hyperlink041",
     "16,17": "link"
@@ -561,6 +563,54 @@
         ]
       }
     },
+    "9,38": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          }
+        ],
+        "CellDefaultValue": 1250
+      }
+    },
+    "9,45": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "SpinButtonvisibility": 0,
+        "Use1000Sepatator": true,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "number",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "CellDefaultValue": 125
+      }
+    },
     "10,25": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
@@ -615,6 +665,31 @@
             "Enabled": true,
             "AllowRoles": [
               "FGC_LoginUser"
+            ]
+          }
+        ]
+      }
+    },
+    "11,38": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 3,
+        "SpinButtonvisibility": 0,
+        "Use1000Sepatator": true,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "decimal",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "事业部经理"
             ]
           }
         ]
@@ -683,6 +758,89 @@
             "Enabled": true,
             "AllowRoles": [
               "事业部经理"
+            ]
+          }
+        ]
+      }
+    },
+    "13,25": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "予算実績",
+        "ValueColumnBindingInfo": {
+          "TableName": "予算実績",
+          "ColumnName": "部門"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "予算実績",
+          "ColumnName": "部門"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "aada947eafa3428da226ea6ce9bd9547",
+            "ColumnName": "勘定科目",
+            "BindingInfo": {
+              "TableName": "予算実績",
+              "ColumnName": "勘定科目"
+            }
+          }
+        ],
+        "AddNullItemWhenBinding": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          }
+        ]
+      }
+    },
+    "13,34": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+          "SerializeProperty": "=NOW()"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
             ]
           }
         ]
@@ -767,6 +925,71 @@
         ]
       }
     },
+    "15,25": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "AutoFilter": 1,
+        "ShowDropdownButtonWhenGetFocus": 2,
+        "SelectOnly": false,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "select",
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "事业部经理"
+            ]
+          }
+        ]
+      }
+    },
+    "15,34": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+          "SerializeProperty": "=NOW()"
+        },
+        "DateFormat": "yyyy年MM月dd日",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "事业部经理"
+            ]
+          }
+        ]
+      }
+    },
     "16,17": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
@@ -790,6 +1013,69 @@
           {
             "Scope": 1,
             "Enabled": true,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "17,25": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "ShowDropdownButtonWhenGetFocus": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "17,34": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+          "SerializeProperty": "=NOW()"
+        },
+        "DateFormat": "yy年MM月dd日",
+        "ShowCalendarScrollBar": true,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
             "AllowRoles": [
               "FGC_Anonymous"
             ]
@@ -821,6 +1107,9 @@
         "Underline": true
       },
       {
+        "Formatter": 5
+      },
+      {
         "HorizontalAlignment": 3,
         "Underline": true
       },
@@ -836,7 +1125,8 @@
         "Top",
         "Body",
         "Center",
-        "Blue"
+        "Blue",
+        "[$$-409] #,##0.00;[$$-409] (#,##0.00);[$$-409] \"-\"??;@"
       ]
     },
     "CellStyles": {
@@ -862,6 +1152,7 @@
       "7,42": 1,
       "7,43": 1,
       "8,17": 4,
+      "9,45": 5,
       "10,25": 2,
       "11,2": 1,
       "11,3": 1,
@@ -876,7 +1167,7 @@
       "11,12": 1,
       "11,13": 1,
       "11,14": 1,
-      "12,17": 5,
+      "12,17": 6,
       "13,2": 1,
       "13,3": 1,
       "13,4": 1,
@@ -891,9 +1182,23 @@
       "13,13": 1,
       "13,14": 1,
       "13,23": 1,
-      "14,17": 5,
+      "14,17": 6,
       "15,2": 1,
-      "16,17": 6
+      "15,34": 1,
+      "15,35": 1,
+      "15,36": 1,
+      "15,37": 1,
+      "15,38": 1,
+      "15,39": 1,
+      "15,40": 1,
+      "16,17": 7,
+      "17,34": 1,
+      "17,35": 1,
+      "17,36": 1,
+      "17,37": 1,
+      "17,38": 1,
+      "17,39": 1,
+      "17,40": 1
     },
     "SheetStyle": {
       "FontFamily": 2
@@ -925,7 +1230,16 @@
     "15,2,4,13",
     "12,17,1,6",
     "14,17,1,6",
-    "16,17,1,6"
+    "16,17,1,6",
+    "13,25,1,7",
+    "15,25,1,7",
+    "17,25,1,7",
+    "13,34,1,7",
+    "15,34,1,7",
+    "17,34,1,7",
+    "9,38,1,6",
+    "11,38,1,6",
+    "9,45,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
