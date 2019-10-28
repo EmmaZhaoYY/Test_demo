@@ -185,7 +185,8 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DatabaseColumnType>bigint</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -208,7 +209,7 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
-      <Name>表2</Name>
+      <Name>collaborationtable</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>
