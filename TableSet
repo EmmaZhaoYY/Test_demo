@@ -95,7 +95,9 @@
                     <FlowProcessRoleType>Everyone</FlowProcessRoleType>
                   </Item>
                 </Assignees>
-                <Commands />
+                <Commands>
+                  <GUID>614be198-b06e-46a1-9aac-2f063adefc2e</GUID>
+                </Commands>
                 <StartState>
                   <Id>4971b7fd-d779-43d0-ad8e-769a2fabb9e1</Id>
                   <StateName>新建</StateName>
@@ -115,7 +117,9 @@
                     <FlowProcessRoleType>Everyone</FlowProcessRoleType>
                   </Item>
                 </Assignees>
-                <Commands />
+                <Commands>
+                  <GUID>8e5ddbcb-21e9-45b6-8965-12334ff01e5c</GUID>
+                </Commands>
                 <StartState>
                   <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
                   <StateName>等待批准</StateName>
@@ -135,7 +139,9 @@
                     <FlowProcessRoleType>Everyone</FlowProcessRoleType>
                   </Item>
                 </Assignees>
-                <Commands />
+                <Commands>
+                  <GUID>16852452-c40a-4251-a231-b501e840eab7</GUID>
+                </Commands>
                 <StartState>
                   <Id>1aa5ee5f-438d-4fea-8d28-6ff5a6d67a5e</Id>
                   <StateName>等待批准</StateName>
@@ -180,7 +186,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -221,7 +226,6 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>用户名</Name>
           <Required>True</Required>
@@ -230,35 +234,30 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>全名</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>邮件</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>角色</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>组织上级</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>头衔</Name>
         </Item>
@@ -277,7 +276,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -286,70 +284,60 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>レコード番号</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>部門</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>勘定科目</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.DateTime</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>日付</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>年度</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>年</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>月</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>予算</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>実績</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
           <DatabaseColumnType>System.Double</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>達成率</Name>
         </Item>
@@ -599,7 +587,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
