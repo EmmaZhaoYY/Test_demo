@@ -50,6 +50,81 @@
         ]
       }
     },
+    "1,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,46": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,53": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
     "2,2": {
       "BindingInfo": {
         "TableName": "用户信息视图",
@@ -80,10 +155,235 @@
         "ColumnName": "组织上级"
       }
     },
+    "2,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,46": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,53": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
     "3,32": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "TemplateKey": "_RS_Normal_Style4",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,46": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,53": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,46": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "4,53": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -119,6 +419,81 @@
           }
         ],
         "ImagePath": "timg.jpg"
+      }
+    },
+    "5,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "5,46": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "5,53": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "9,32": {
@@ -191,14 +566,17 @@
         "BorderRight": 0
       },
       {
+        "FontFamily": 1
+      },
+      {
         "BorderLeft": 0
       },
       {
         "BorderRight": 0
       },
       {
-        "Foreground": 1,
-        "HorizontalAlignment": 2,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
         "Underline": true
       },
       {
@@ -211,17 +589,14 @@
       {
         "BorderBottom": 0,
         "BorderRight": 0
-      },
-      {
-        "FontFamily": 3
       }
     ],
     "Types": {
       "Strs": [
         "DarkGray",
+        "Body",
         "Blue",
-        "Center",
-        "Body"
+        "Center"
       ],
       "Borders": [
         {
@@ -259,56 +634,161 @@
       "1,28": 1,
       "1,29": 1,
       "1,30": 2,
-      "2,2": 3,
-      "2,30": 4,
-      "3,2": 3,
-      "3,30": 4,
-      "4,2": 3,
-      "4,30": 4,
-      "5,2": 3,
-      "5,30": 4,
-      "6,2": 3,
-      "6,30": 4,
-      "7,2": 3,
-      "7,30": 4,
-      "8,2": 3,
-      "8,30": 4,
-      "9,2": 3,
-      "9,30": 4,
-      "9,32": 5,
-      "10,2": 6,
-      "10,3": 7,
-      "10,4": 7,
-      "10,5": 7,
-      "10,6": 7,
-      "10,7": 7,
-      "10,8": 7,
-      "10,9": 7,
-      "10,10": 7,
-      "10,11": 7,
-      "10,12": 7,
-      "10,13": 7,
-      "10,14": 7,
-      "10,15": 7,
-      "10,16": 7,
-      "10,17": 7,
-      "10,18": 7,
-      "10,19": 7,
-      "10,20": 7,
-      "10,21": 7,
-      "10,22": 7,
-      "10,23": 7,
-      "10,24": 7,
-      "10,25": 7,
-      "10,26": 7,
-      "10,27": 7,
-      "10,28": 7,
-      "10,29": 7,
-      "10,30": 8,
-      "12,2": 9
+      "1,39": 3,
+      "1,40": 3,
+      "1,41": 3,
+      "1,42": 3,
+      "1,43": 3,
+      "1,44": 3,
+      "1,45": 3,
+      "1,46": 3,
+      "1,47": 3,
+      "1,48": 3,
+      "1,49": 3,
+      "1,50": 3,
+      "1,51": 3,
+      "1,52": 3,
+      "1,53": 3,
+      "1,54": 3,
+      "1,55": 3,
+      "1,56": 3,
+      "1,57": 3,
+      "1,58": 3,
+      "1,59": 3,
+      "2,2": 4,
+      "2,30": 5,
+      "2,39": 3,
+      "2,40": 3,
+      "2,41": 3,
+      "2,42": 3,
+      "2,43": 3,
+      "2,44": 3,
+      "2,45": 3,
+      "2,46": 3,
+      "2,47": 3,
+      "2,48": 3,
+      "2,49": 3,
+      "2,50": 3,
+      "2,51": 3,
+      "2,52": 3,
+      "2,53": 3,
+      "2,54": 3,
+      "2,55": 3,
+      "2,56": 3,
+      "2,57": 3,
+      "2,58": 3,
+      "2,59": 3,
+      "3,2": 4,
+      "3,30": 5,
+      "3,39": 3,
+      "3,40": 3,
+      "3,41": 3,
+      "3,42": 3,
+      "3,43": 3,
+      "3,44": 3,
+      "3,45": 3,
+      "3,46": 3,
+      "3,47": 3,
+      "3,48": 3,
+      "3,49": 3,
+      "3,50": 3,
+      "3,51": 3,
+      "3,52": 3,
+      "3,53": 3,
+      "3,54": 3,
+      "3,55": 3,
+      "3,56": 3,
+      "3,57": 3,
+      "3,58": 3,
+      "3,59": 3,
+      "4,2": 4,
+      "4,30": 5,
+      "4,39": 3,
+      "4,40": 3,
+      "4,41": 3,
+      "4,42": 3,
+      "4,43": 3,
+      "4,44": 3,
+      "4,45": 3,
+      "4,46": 3,
+      "4,47": 3,
+      "4,48": 3,
+      "4,49": 3,
+      "4,50": 3,
+      "4,51": 3,
+      "4,52": 3,
+      "4,53": 3,
+      "4,54": 3,
+      "4,55": 3,
+      "4,56": 3,
+      "4,57": 3,
+      "4,58": 3,
+      "4,59": 3,
+      "5,2": 4,
+      "5,30": 5,
+      "5,39": 3,
+      "5,40": 3,
+      "5,41": 3,
+      "5,42": 3,
+      "5,43": 3,
+      "5,44": 3,
+      "5,45": 3,
+      "5,46": 3,
+      "5,47": 3,
+      "5,48": 3,
+      "5,49": 3,
+      "5,50": 3,
+      "5,51": 3,
+      "5,52": 3,
+      "5,53": 3,
+      "5,54": 3,
+      "5,55": 3,
+      "5,56": 3,
+      "5,57": 3,
+      "5,58": 3,
+      "5,59": 3,
+      "6,2": 4,
+      "6,30": 5,
+      "7,2": 4,
+      "7,30": 5,
+      "8,2": 4,
+      "8,30": 5,
+      "9,2": 4,
+      "9,30": 5,
+      "9,32": 6,
+      "10,2": 7,
+      "10,3": 8,
+      "10,4": 8,
+      "10,5": 8,
+      "10,6": 8,
+      "10,7": 8,
+      "10,8": 8,
+      "10,9": 8,
+      "10,10": 8,
+      "10,11": 8,
+      "10,12": 8,
+      "10,13": 8,
+      "10,14": 8,
+      "10,15": 8,
+      "10,16": 8,
+      "10,17": 8,
+      "10,18": 8,
+      "10,19": 8,
+      "10,20": 8,
+      "10,21": 8,
+      "10,22": 8,
+      "10,23": 8,
+      "10,24": 8,
+      "10,25": 8,
+      "10,26": 8,
+      "10,27": 8,
+      "10,28": 8,
+      "10,29": 8,
+      "10,30": 9,
+      "12,2": 3
     },
     "SheetStyle": {
-      "FontFamily": 3
+      "FontFamily": 1
     }
   },
   "Spans": [
@@ -323,6 +803,21 @@
     "5,32,3,4",
     "9,32,1,6",
     "12,2,1,7",
+    "1,39,1,7",
+    "1,46,1,7",
+    "1,53,1,7",
+    "2,39,1,7",
+    "2,46,1,7",
+    "2,53,1,7",
+    "3,39,1,7",
+    "3,46,1,7",
+    "3,53,1,7",
+    "4,39,1,7",
+    "4,46,1,7",
+    "4,53,1,7",
+    "5,39,1,7",
+    "5,46,1,7",
+    "5,53,1,7",
     "1,2,1,4",
     "1,6,1,4",
     "1,10,1,7",
@@ -399,7 +894,8 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
       "VisitMode": 2
-    }
+    },
+    "EnableTabIndex": true
   },
   "PrintInfo": {
     "Margin": {},
