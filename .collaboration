@@ -9,16 +9,7 @@
   },
   {
     "ModuleName": "phonepage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "EmmaZhao",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T15:47:43.5273398+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\Permission_Colloboration\\phonepage.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\ReadOnly",
@@ -234,12 +225,6 @@
   },
   {
     "ModuleName": "phonepage (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "EmmaZhao",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T15:48:02.3604402+08:00",
     "ModuleType": 1
   }
 ]

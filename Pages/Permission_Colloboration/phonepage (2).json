@@ -21,7 +21,7 @@
             "$type": "SmartPhoneCommand.SmartPhoneCommand, SmartPhoneCommand",
             "TargetCell": {
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=phonepage!B6"
+              "SerializeProperty": "='phonepage (2)'!B6"
             }
           }
         ],
