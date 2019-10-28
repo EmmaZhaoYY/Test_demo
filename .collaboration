@@ -133,7 +133,17 @@
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
-    "ModuleType": 8
+    "State": 1,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 8,
+    "ToRemoveFiles": [
+      "ApplicationSettings",
+      "favicon.ico"
+    ]
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
@@ -178,5 +188,125 @@
   {
     "ModuleName": "Collboration",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改密码",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改密码_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_忘记密码",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_忘记密码_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改用户信息",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改用户信息_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_登录",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_登录_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码_手机版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T16:01:27.6996619+08:00",
+    "ModuleType": 2
   }
 ]
