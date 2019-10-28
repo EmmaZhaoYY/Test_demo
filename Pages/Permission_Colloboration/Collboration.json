@@ -83,7 +83,7 @@
     "3,32": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
-        "TemplateKey": "_RS_Normal_Style2",
+        "TemplateKey": "_RS_Normal_Style4",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -103,6 +103,7 @@
     "5,32": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "TemplateKey": "样式1",
         "UIPermissions": [
           {
             "Scope": 2,
