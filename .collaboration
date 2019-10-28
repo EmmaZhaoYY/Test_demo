@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "Collaboration01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T18:26:31.3977352+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Permission_Colloboration\\Collaboration01.json",
-      "Pages\\362fda37-dc81-43f2-8902-fa62fe2de89f.json",
-      "UserTemplateFile\\TotalRow-Export-03 (1)368f30a3dce64aabbcf82ba4c7aaee0f.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "phone",
@@ -148,19 +137,7 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T18:29:24.0138664+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
@@ -192,16 +169,7 @@
   },
   {
     "ModuleName": "Collboration",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T18:28:22.3701784+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Permission_Colloboration\\Collboration.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_修改密码",

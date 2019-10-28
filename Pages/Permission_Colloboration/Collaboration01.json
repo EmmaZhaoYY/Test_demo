@@ -133,7 +133,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"muiltline textbox\");",
-            "ID": "c73078f2f55c4c1f88dae443db366d7e"
+            "ID": "eba77431427a4a06b5b811a8eced4fab"
           }
         ],
         "UIPermissions": [
@@ -1147,7 +1147,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"information\");",
-            "ID": "fc31546d304845fab9cc3ec5b6500329"
+            "ID": "17d5f2c7765b4b9bbc411e83d52f09e3"
           }
         ],
         "Text": "link",
@@ -1947,7 +1947,7 @@
             "ColumnName": "ID"
           },
           "Value": "25",
-          "Id": "e6789d92-668c-4b8e-9e2b-d67ffa6a13f3"
+          "Id": "48b77f86-37b8-4b09-8916-47883976b7e5"
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2"
@@ -2522,6 +2522,12 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+        "Message": "Page Loading Command!"
+      }
+    ],
     "AuthorizeInfo": {
       "VisitMode": 3
     }
