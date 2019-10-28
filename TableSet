@@ -175,6 +175,66 @@
       <Weight>0</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <BuiltInViewInfo>
+        <CreateViewSql>SELECT "FGC_UserName" AS "用户名","FGC_FullName" AS "全名","FGC_Email" AS "邮件","FGC_Role" AS "角色","FGC_OrganizationSuperior" AS "组织上级","头衔" FROM "FGC_UserInfoTable";</CreateViewSql>
+        <ViewName>用户信息视图</ViewName>
+        <ViewType>BuiltInUserInfo</ViewType>
+      </BuiltInViewInfo>
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>用户名</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>全名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>邮件</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>角色</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>组织上级</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>头衔</Name>
+        </Item>
+      </Columns>
+      <Name>用户信息视图</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>用户名</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>1</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <AutoIncrement>True</AutoIncrement>
@@ -296,7 +356,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>1</Weight>
+      <Weight>2</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
       <Items>
@@ -494,7 +554,7 @@
         </Item>
       </Items>
       <Name>Mysql</Name>
-      <Weight>2</Weight>
+      <Weight>3</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -545,7 +605,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>5</Weight>
+      <Weight>6</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
       <Items>
@@ -680,7 +740,7 @@
         </Item>
       </Items>
       <Name>SqlServer</Name>
-      <Weight>4</Weight>
+      <Weight>5</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
       <Items>
@@ -817,7 +877,6 @@
             <ESourceConnectString>aqsaXGEkdq72QsFhWJ0p5jkaBd+F4ahB7RqpPOgcYUZjWWdpBF0W5Wtetec2tX6dfuTXN+mHzNnGjjFg5WOaKZ6K9joQAM1wetONmKGMo2A=</ESourceConnectString>
             <SourceConnectString>Data Source=ssql12orcl11;User ID=oracletest;Password=xA123456;Unicode=True</SourceConnectString>
             <SourceTableName>oracletablefortotalrow</SourceTableName>
-            <SourceTableSchema></SourceTableSchema>
           </ExternalDatabaseInfo>
           <Name>oracletablefortotalrow</Name>
           <PrimaryKey>
@@ -1080,7 +1139,6 @@
             <ESourceConnectString>aqsaXGEkdq72QsFhWJ0p5jkaBd+F4ahB7RqpPOgcYUZjWWdpBF0W5Wtetec2tX6dfuTXN+mHzNnGjjFg5WOaKZ6K9joQAM1wetONmKGMo2A=</ESourceConnectString>
             <SourceConnectString>Data Source=ssql12orcl11;User ID=oracletest;Password=xA123456;Unicode=True</SourceConnectString>
             <SourceTableName>销售明细</SourceTableName>
-            <SourceTableSchema></SourceTableSchema>
           </ExternalDatabaseInfo>
           <Name>销售明细</Name>
           <PrimaryKey>
@@ -1092,7 +1150,7 @@
         </Item>
       </Items>
       <Name>Oracle</Name>
-      <Weight>3</Weight>
+      <Weight>4</Weight>
     </Item>
   </Tables>
 </TableSet>
