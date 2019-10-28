@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings>
+  <AuthenticationMode>Windows</AuthenticationMode>
   <IntegrateWithOtherApplication>
     <Password>0eB%OV6N3D!o</Password>
   </IntegrateWithOtherApplication>
-  <StartPage>Collaboration01</StartPage>
-  <UserServicePort>29194</UserServicePort>
+  <UserServicePort>30604</UserServicePort>
   <WebSitePort>64803</WebSitePort>
 </ApplicationSettings>
