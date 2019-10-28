@@ -41,17 +41,7 @@
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:50:10.06876+08:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "ApplicationSettings",
-      "favicon.ico"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
@@ -63,16 +53,7 @@
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T12:10:30.9540791+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
@@ -172,16 +153,7 @@
   },
   {
     "ModuleName": "Collaboration01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T11:56:32.7783614+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Permission\\Collaboration01.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\Permission",
@@ -189,22 +161,10 @@
   },
   {
     "ModuleName": "phonepage",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:33:13.9941602+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "phone",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:32:58.1988759+08:00",
     "ModuleType": 2
   }
 ]

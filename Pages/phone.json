@@ -1,0 +1,31 @@
+{
+  "Rows": {
+    "Count": 16
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "#FFFFFF00",
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "Background": 0,
+      "FontFamily": 1
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
