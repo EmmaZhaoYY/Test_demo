@@ -326,7 +326,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(true);",
-            "ID": "87695aa8fc154d6882cfb5631e62d14f"
+            "ID": "6c1e563928774fc8bfa5115321dfc048"
           }
         ],
         "Text": "Javascript",
@@ -530,7 +530,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number01\");\r\ncell.setReadOnly(true);",
-            "ID": "a7f68554f0cb41c3b25c8c494ca84e7d"
+            "ID": "437a16d8de1d44b7951b21625e8a34f3"
           }
         ],
         "Text": "Javascript",
@@ -558,7 +558,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number01\");\r\ncell.setReadOnly(false);",
-            "ID": "63e5a9f5e3ba40698810a1b8f12468e3"
+            "ID": "aac6b50590204a2d912568c2b9ba29dd"
           }
         ],
         "Text": "Javascript读写",
@@ -823,7 +823,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(false);",
-            "ID": "54d96bf5e32e470bbe3cdac08034454e"
+            "ID": "f280f6e854e94c43a1c4aff52653327d"
           }
         ],
         "Text": "Javascript",
@@ -1030,7 +1030,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number02\");\r\ncell.setReadOnly(true);",
-            "ID": "6978e62117194dd991f239a8c3bc4b3e"
+            "ID": "bfb9bf3feb214f5ab9f418bf9745e841"
           }
         ],
         "Text": "Javascript",
@@ -1058,7 +1058,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number02\");\r\ncell.setReadOnly(false);",
-            "ID": "b3fed42862324965b98d6abeee7bc833"
+            "ID": "bcac649f07244ef9bff6ca5ef57cb922"
           }
         ],
         "Text": "Javascript读写",
@@ -1359,7 +1359,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage\");\r\ncell.setReadOnly(true);",
-            "ID": "0ca6dbb8156e43149d55553e49c2952d"
+            "ID": "f370341e5eec41d5bb7da86cf215b2ee"
           }
         ],
         "Text": "Javascript",
@@ -1505,7 +1505,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"muiltline\");\r\ncell.setReadOnly(true);",
-            "ID": "b26b98399f334fdbbc350315845ef3ee"
+            "ID": "7b3745440f1f4ec78e1d9367d15db814"
           }
         ],
         "Text": "Javascript",
@@ -1617,7 +1617,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"Test read only property!\");",
-            "ID": "8ce23b28246447168a552a2e6f2915da"
+            "ID": "447823093d974e1084897484ceae076b"
           }
         ],
         "Text": "value",
@@ -1716,7 +1716,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage\");\r\ncell.setReadOnly(false);",
-            "ID": "d85b22ef5085487697e88f02e41e8ece"
+            "ID": "8ab9d9700d794d3a8d1a2698093a7f32"
           }
         ],
         "Text": "Javascript",
@@ -1814,7 +1814,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"muiltline\");\r\ncell.setReadOnly(false);",
-            "ID": "2a7fb69170ab46b7b8b30ed3ade52e42"
+            "ID": "87bc07aed8504436bf998ca089a6ba9e"
           }
         ],
         "Text": "Javascript",
@@ -2097,7 +2097,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage01\");\r\ncell.setReadOnly(true);",
-            "ID": "efbedb7945604500994f96526047f335"
+            "ID": "edb295446694455a85810b374c4a8394"
           }
         ],
         "Text": "Javascript",
@@ -2167,7 +2167,7 @@
     "12,23": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
-        "TemplateKey": "自定义样式",
+        "TemplateKey": "自定义样式01",
         "WaterMark": "readonly combo",
         "Items": [
           {
@@ -2285,7 +2285,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo01\");\r\ncell.setReadOnly(true);",
-            "ID": "5ecbdcaa25974ffe8f0b9d825d3efd5e"
+            "ID": "567cf30ee1704f15ac14f5c415942c1c"
           }
         ],
         "Text": "只读",
@@ -2313,7 +2313,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo01\");\r\ncell.setReadOnly(false);",
-            "ID": "773ff8bc55c74185af85d9478286a846"
+            "ID": "cc12c5df92594de483ea34312677c59b"
           }
         ],
         "Text": "读写",
@@ -2376,7 +2376,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage01\");\r\ncell.setReadOnly(false);",
-            "ID": "43ce310d7b7346688df14fdbf2f2afdb"
+            "ID": "721cc10e294b4de5ae65d5251c4b8787"
           }
         ],
         "Text": "Javascript",
@@ -2401,7 +2401,7 @@
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
         "ShowDropdownButtonWhenGetFocus": 1,
-        "TemplateKey": "自定义样式",
+        "TemplateKey": "自定义样式01",
         "WaterMark": "readonly combo",
         "Items": [
           {
@@ -2519,7 +2519,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo02\");\r\ncell.setReadOnly(true);",
-            "ID": "3fd184a84fa041c686900f32543795bc"
+            "ID": "a1daed063c2341e985ba42b2713810c6"
           }
         ],
         "Text": "只读",
@@ -2547,7 +2547,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo02\");\r\ncell.setReadOnly(false);",
-            "ID": "169c43b609364ccb84eb5dc4dfa7384d"
+            "ID": "7c1667e7ce8f4e4d8f647e906399c374"
           }
         ],
         "Text": "读写",
@@ -2665,7 +2665,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox01\");\r\ncell.setReadOnly(true);",
-            "ID": "5c969aa426d9439687d3fee06620dfa5"
+            "ID": "9fc6fd95a2364733adea905b686ed5dd"
           }
         ],
         "Text": "JS只读",
@@ -2693,7 +2693,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox01\");\r\ncell.setReadOnly(false);",
-            "ID": "c7c00792f5ee4fc491aab1e24fb67a21"
+            "ID": "cbca5fab1d55443c83f2288ed75e2aa6"
           }
         ],
         "Text": "JS读写",
@@ -2755,7 +2755,7 @@
         "$type": "Forguncy.DropDownListCellType, Forguncy",
         "ShowDropdownButtonWhenGetFocus": 2,
         "ValidateItem": true,
-        "TemplateKey": "自定义样式",
+        "TemplateKey": "自定义样式01",
         "WaterMark": "readonly combo",
         "Items": [
           {
@@ -2873,7 +2873,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(true);",
-            "ID": "6faa1c9f57724e728cb5a09c66231e49"
+            "ID": "a5416c89675f41bd9b1739cc13181662"
           }
         ],
         "Text": "只读",
@@ -2901,7 +2901,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(false);",
-            "ID": "a0f1d3f72a0842c1bcc8eee632deef75"
+            "ID": "0d4dfd36ac544449b7d4a61a757747b2"
           }
         ],
         "Text": "读写",
@@ -3072,7 +3072,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox02\");\r\ncell.setReadOnly(true);",
-            "ID": "23c5adfaf25d4e8ba95c6d50667e7072"
+            "ID": "aaa2ef2a6cc54af4b5ea6d8c945f24d9"
           }
         ],
         "Text": "JS只读",
@@ -3100,7 +3100,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox02\");\r\ncell.setReadOnly(false);",
-            "ID": "9b68f732b9fa47cc9c56e609a593d11a"
+            "ID": "bed0d63748e74459a335154845f9f292"
           }
         ],
         "Text": "JS读写",
@@ -3167,7 +3167,7 @@
         "$type": "Forguncy.DropDownListCellType, Forguncy",
         "SelectOnly": false,
         "ValidateItem": true,
-        "TemplateKey": "自定义样式",
+        "TemplateKey": "自定义样式01",
         "WaterMark": "readonly combo",
         "Items": [
           {
@@ -3285,7 +3285,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo04\");\r\ncell.setReadOnly(true);",
-            "ID": "d5df2ab86d814b818fa42634df7d5b91"
+            "ID": "addb0af72e1e457e9ec09b19b25cf923"
           }
         ],
         "Text": "只读",
@@ -3313,7 +3313,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo04\");\r\ncell.setReadOnly(false);",
-            "ID": "b14c7a91270f44b08af0e107fa175076"
+            "ID": "fe81c5d088f64e6db3faff211e6a0edc"
           }
         ],
         "Text": "读写",
@@ -3431,7 +3431,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox03\");\r\ncell.setReadOnly(true);",
-            "ID": "35ab278e8b7b421ea61b93bbe118d2a1"
+            "ID": "175f2aa7313d45da8684e0f710180994"
           }
         ],
         "Text": "JS只读",
@@ -3459,7 +3459,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox03\");\r\ncell.setReadOnly(false);",
-            "ID": "5aa39152c36a466fa32d900b6bb8ac45"
+            "ID": "2f662e51dc07496b87d02ae5df6da854"
           }
         ],
         "Text": "JS读写",
@@ -3626,7 +3626,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date01\");\r\ncell.setReadOnly(true);",
-            "ID": "fc77dd6ab1e84954aa84339f52ce322d"
+            "ID": "b390705ac11d4b7fb072d6783fc17b4a"
           }
         ],
         "Text": "只读",
@@ -3654,7 +3654,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date01\");\r\ncell.setReadOnly(false);",
-            "ID": "4d09753fc4084ecfab750b2d9c8e8b32"
+            "ID": "1d4e99449d8b4659a6fb54af32f3280c"
           }
         ],
         "Text": "读写",
@@ -3916,7 +3916,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox04\");\r\ncell.setReadOnly(true);",
-            "ID": "17c45f70ab354c5ea8c80a3fb541e759"
+            "ID": "83410bc4b3224b4ca8719b80b8f6eb75"
           }
         ],
         "Text": "JS只读",
@@ -3944,7 +3944,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox04\");\r\ncell.setReadOnly(false);",
-            "ID": "7b5ca57ba6344bfdb5b877711a81bdc0"
+            "ID": "60484b77e6334fd69f0f253138203106"
           }
         ],
         "Text": "JS读写",
@@ -4104,7 +4104,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date02\");\r\ncell.setReadOnly(true);",
-            "ID": "ae4eba77690c492f8ce57e6ef42d89aa"
+            "ID": "c8e7f065a74841c4b3da81fc06d3a68d"
           }
         ],
         "Text": "只读",
@@ -4132,7 +4132,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date02\");\r\ncell.setReadOnly(false);",
-            "ID": "8b1491f566844629b72f8c674183d2c8"
+            "ID": "d299422c90ad457383b6ef53d0edcac8"
           }
         ],
         "Text": "读写",
@@ -4160,7 +4160,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"attachment\");\r\ncell.setReadOnly(true);",
-            "ID": "3f29808e415c46a99f9250794872c9a0"
+            "ID": "63b040d47dd34d9d8d2433867801ea1b"
           }
         ],
         "Text": "Javascript",
@@ -4188,7 +4188,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"attachment\");\r\ncell.setReadOnly(false);",
-            "ID": "ecb09b7424d547daab175d2b2722a08d"
+            "ID": "8c5dcd0c4980400db17116b8d3d8b89d"
           }
         ],
         "Text": "Javascript读写",
@@ -4216,7 +4216,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"attachment01\");\r\ncell.setReadOnly(true);",
-            "ID": "bfc950ea000d4e46806712154ae94cff"
+            "ID": "ed333642a72948f4aa93cc8837faec7c"
           }
         ],
         "Text": "Javascript",
@@ -4347,7 +4347,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group01\");\r\ncell.setReadOnly(true);",
-            "ID": "6889288b85ce43448d9f8518e8f5f264"
+            "ID": "8053eb1c15634a5e83c3a49668be40e8"
           }
         ],
         "Text": "JS只读",
@@ -4375,7 +4375,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group01\");\r\ncell.setReadOnly(false);",
-            "ID": "f4b0a01c35e04ba2a76d873875fd8182"
+            "ID": "f02a17ea755a466eb5dda94507797029"
           }
         ],
         "Text": "JS读写",
@@ -4500,7 +4500,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(true);",
-            "ID": "5419d0a4949d44809b459d0b3c0f821d"
+            "ID": "a9a0c4f20de6473f90cb24fdd500b642"
           }
         ],
         "Text": "只读",
@@ -4528,7 +4528,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(false);",
-            "ID": "bb28ad46cec84aaeb1c4af8dfe889fd0"
+            "ID": "700228382f524af59332a3d55d0710e2"
           }
         ],
         "Text": "读写",
@@ -4697,7 +4697,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group02\");\r\ncell.setReadOnly(true);",
-            "ID": "ab1f901b34494330a2e63f1debfbf221"
+            "ID": "9160dac6b44042feb711ee14ed32747b"
           }
         ],
         "Text": "JS只读",
@@ -4725,7 +4725,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group02\");\r\ncell.setReadOnly(false);",
-            "ID": "72e8a23f26ab4cb19161b9d36499bcb5"
+            "ID": "75070e9e02034d168bd08486a9def68f"
           }
         ],
         "Text": "JS读写",
@@ -4848,7 +4848,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date04\");\r\ncell.setReadOnly(true);",
-            "ID": "475b56ae207245d7a37f85b356267033"
+            "ID": "270c3ca6535543baaf7db27c87babd89"
           }
         ],
         "Text": "只读",
@@ -4876,7 +4876,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date04\");\r\ncell.setReadOnly(false);",
-            "ID": "2a609b49df014279ba41d6fc1825fadf"
+            "ID": "15a4faa9b0fe407abe35da3dbcd72a08"
           }
         ],
         "Text": "读写",
@@ -5008,7 +5008,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group03\");\r\ncell.setReadOnly(true);",
-            "ID": "28c8cc8b18e744d8ab01f217e1658561"
+            "ID": "7458f7c2f25d47a7b6b69a0fb18dc34c"
           }
         ],
         "Text": "JS只读",
@@ -5036,7 +5036,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group03\");\r\ncell.setReadOnly(false);",
-            "ID": "c9737e33a7024647a24c3e41505220e9"
+            "ID": "73dc46a4770a441ebd8a2c505d508554"
           }
         ],
         "Text": "JS读写",
@@ -5318,7 +5318,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group04\");\r\ncell.setReadOnly(true);",
-            "ID": "c11beaa133f846e3a0c546132f71ed61"
+            "ID": "563edcf0fbcf4602b211832f02b1dbf0"
           }
         ],
         "Text": "JS只读",
@@ -5346,7 +5346,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group04\");\r\ncell.setReadOnly(false);",
-            "ID": "b2584ea2b8064ea69e3a936a10b713c2"
+            "ID": "8b1d9e0f61e1468c96a9b107cd56f3f0"
           }
         ],
         "Text": "JS读写",
@@ -5478,7 +5478,7 @@
                     ]
                   },
                   "value": "Administrator",
-                  "Id": "eb8906f9-5677-45b4-b785-1f0f03d92b57"
+                  "Id": "cd814fd6-d489-4b28-885c-d548fe7fca24"
                 },
                 "CommandList": [
                   {
@@ -5585,7 +5585,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user01\");\r\ncell.setReadOnly(true);",
-            "ID": "5248940167014ce3928dbd3646934d52"
+            "ID": "37ca973ab14b400a96d42608f50b0183"
           }
         ],
         "Text": "Javascript",
@@ -5613,7 +5613,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user01\");\r\ncell.setReadOnly(false);",
-            "ID": "d8852487b0d74ea8bec82e272adcc986"
+            "ID": "fc7b0038be0741ad8fb21f24e44d0e9a"
           }
         ],
         "Text": "Javascript读写",
@@ -5777,7 +5777,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time01\");\r\ncell.setReadOnly(true);",
-            "ID": "e50d33061e0a4cbd93a414c8a353562b"
+            "ID": "84e9a19ec8e84514ab7f831e8e7088bc"
           }
         ],
         "Text": "只读",
@@ -5805,7 +5805,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time01\");\r\ncell.setReadOnly(false);",
-            "ID": "edbcc244d5a9441e9a18b7bf92f9a045"
+            "ID": "118e2a9450124710ba11a62e1400c148"
           }
         ],
         "Text": "读写",
@@ -6019,7 +6019,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user02\");\r\ncell.setReadOnly(true);",
-            "ID": "3fc7a4cd499440f7bcf71c43ca0ebb33"
+            "ID": "0b8d8f1ca53c4fd0af8af1e089f64efa"
           }
         ],
         "Text": "Javascript",
@@ -6047,7 +6047,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user02\");\r\ncell.setReadOnly(false);",
-            "ID": "cbf9a85cfe244d4db91b98bc781f11ce"
+            "ID": "158b6bf54adb4919a488486de7252310"
           }
         ],
         "Text": "Javascript读写",
@@ -6179,7 +6179,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time02\");\r\ncell.setReadOnly(true);",
-            "ID": "0b9b0e4481754a729dece1481b80eeb4"
+            "ID": "445314779fbf4f4a80a89058be3cf64d"
           }
         ],
         "Text": "只读",
@@ -6207,7 +6207,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time02\");\r\ncell.setReadOnly(false);",
-            "ID": "e3273f748bef426a8614e2be5f54518a"
+            "ID": "887938e960f44d71847b02019b686ee3"
           }
         ],
         "Text": "读写",
@@ -6331,7 +6331,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user03\");\r\ncell.setReadOnly(true);",
-            "ID": "3d50b62661aa478a8738301c40bdf1e6"
+            "ID": "827c660de7b3451e8e3f56a185da6c10"
           }
         ],
         "Text": "Javascript",
@@ -6359,7 +6359,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user03\");\r\ncell.setReadOnly(false);",
-            "ID": "ca7cedee868c4412909ed8e1ee05cd4e"
+            "ID": "0cc06337a3ea4fcbaa5bab49d339d601"
           }
         ],
         "Text": "Javascript读写",
@@ -6469,7 +6469,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio01\");\r\ncell.setReadOnly(true);",
-            "ID": "2b50a17aadc24f488dc914c9a735d36a"
+            "ID": "756123800fa14686a74749e8cd14f810"
           }
         ],
         "Text": "JS只读",
@@ -6580,7 +6580,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio03\");\r\ncell.setReadOnly(true);",
-            "ID": "881e27ba33ca4a5091a7376ae1facaad"
+            "ID": "58ee8bff04344d199f9031a0d130efd0"
           }
         ],
         "Text": "JS只读",
@@ -6682,7 +6682,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user04\");\r\ncell.setReadOnly(false);",
-            "ID": "88ca5e2240e7418692eb14460f01d183"
+            "ID": "7b0dd4a6cf0a43f49c38f1ef23491dfc"
           }
         ],
         "Text": "Javascript",
@@ -6780,7 +6780,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio01\");\r\ncell.setReadOnly(false);",
-            "ID": "c42287da1e374962b98ed6bd541b7f42"
+            "ID": "26f8a80e529247ccbd998c1af35db37b"
           }
         ],
         "Text": "JS读写",
@@ -6843,7 +6843,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio03\");\r\ncell.setReadOnly(false);",
-            "ID": "5c8eb3cfbdf643d3a2b1080825fa7d2e"
+            "ID": "615830f23fa1497482a13dbb4b2c43d9"
           }
         ],
         "Text": "JS读写",
@@ -6988,7 +6988,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio02\");\r\ncell.setReadOnly(true);",
-            "ID": "f6054cd279794b19b2e574cb46fc248b"
+            "ID": "fc36984b58ef485bbca1c0873bcaa3db"
           }
         ],
         "Text": "JS只读",
@@ -7099,7 +7099,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio04\");\r\ncell.setReadOnly(true);",
-            "ID": "b592702401bd47cda096b4c8feb50031"
+            "ID": "4bc87a0226984cf2a076fa2225349aa5"
           }
         ],
         "Text": "JS只读",
@@ -7188,7 +7188,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio02\");\r\ncell.setReadOnly(false);",
-            "ID": "f1a0c781e1f5462ca727ab08f18c908f"
+            "ID": "c6a3a734fb1b4dfcae031b1f250cf059"
           }
         ],
         "Text": "JS读写",
@@ -7251,7 +7251,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio04\");\r\ncell.setReadOnly(false);",
-            "ID": "d8f27407f82343efa8210f7eb7f82baf"
+            "ID": "2ccd8a049e29474d8372b6733502a96a"
           }
         ],
         "Text": "JS读写",

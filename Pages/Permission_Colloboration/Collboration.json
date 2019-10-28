@@ -141,6 +141,40 @@
           }
         ]
       }
+    },
+    "12,2": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "自定义样式01",
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
     }
   },
   "StyleDatas": {
@@ -177,6 +211,9 @@
       {
         "BorderBottom": 0,
         "BorderRight": 0
+      },
+      {
+        "FontFamily": 3
       }
     ],
     "Types": {
@@ -267,7 +304,8 @@
       "10,27": 7,
       "10,28": 7,
       "10,29": 7,
-      "10,30": 8
+      "10,30": 8,
+      "12,2": 9
     },
     "SheetStyle": {
       "FontFamily": 3
@@ -275,20 +313,21 @@
   },
   "Spans": [
     "3,2,8,29",
-    "1,2,1,4",
     "2,2,1,4",
-    "1,6,1,4",
     "2,6,1,4",
-    "1,10,1,7",
     "2,10,1,7",
-    "1,17,1,4",
     "2,17,1,4",
-    "1,21,1,10",
     "2,21,1,10",
     "1,32,1,7",
     "3,32,1,7",
     "5,32,3,4",
-    "9,32,1,6"
+    "9,32,1,6",
+    "1,2,1,4",
+    "1,6,1,4",
+    "1,10,1,7",
+    "1,17,1,4",
+    "1,21,1,10",
+    "12,2,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

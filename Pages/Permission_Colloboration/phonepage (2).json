@@ -72,6 +72,40 @@
         "$type": "Forguncy.BarcodeCellType, Forguncy",
         "CodeType": "QRCode"
       }
+    },
+    "18,3": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "自定义样式01",
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
     }
   },
   "StyleDatas": {
@@ -174,7 +208,8 @@
   "Spans": [
     "2,4,2,9",
     "5,1,2,16",
-    "9,4,8,10"
+    "9,4,8,10",
+    "18,3,2,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
