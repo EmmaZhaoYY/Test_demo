@@ -9,7 +9,16 @@
   },
   {
     "ModuleName": "phonepage",
-    "ModuleType": 2
+    "State": 2,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:58:36.2296899+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\Permission_Colloboration\\phonepage.json"
+    ]
   },
   {
     "ModuleName": "Pages\\ReadOnly",
