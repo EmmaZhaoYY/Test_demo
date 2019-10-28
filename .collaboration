@@ -318,13 +318,13 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "phone page (2)",
+    "ModuleName": "phone",
     "State": 3,
     "LockedBy": {
       "UserName": "Sunny",
       "Email": "Emma@mail.com"
     },
-    "LockDateTime": "2019-10-28T12:28:48.6849044+08:00",
-    "ModuleType": 1
+    "LockDateTime": "2019-10-28T13:32:58.1988759+08:00",
+    "ModuleType": 2
   }
 ]
