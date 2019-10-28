@@ -235,5 +235,15 @@
     "ToRemoveFiles": [
       "Pages\\Permission_Colloboration\\phonepage (2).json"
     ]
+  },
+  {
+    "ModuleName": "Collboration",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:50:13.3382008+08:00",
+    "ModuleType": 1
   }
 ]
