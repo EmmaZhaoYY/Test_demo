@@ -213,7 +213,16 @@
   },
   {
     "ModuleName": "NewPage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:38:25.5625764+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Permission_Colloboration\\TestFolder\\NewPage.json"
+    ]
   },
   {
     "ModuleName": "Pages\\Permission_Colloboration\\TestFolder",
