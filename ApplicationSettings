@@ -3,7 +3,7 @@
   <IntegrateWithOtherApplication>
     <Password>0eB%OV6N3D!o</Password>
   </IntegrateWithOtherApplication>
-  <StartPage>Collaboration01</StartPage>
-  <UserServicePort>30604</UserServicePort>
+  <StartPage>Collboration</StartPage>
+  <UserServicePort>29194</UserServicePort>
   <WebSitePort>64803</WebSitePort>
 </ApplicationSettings>
