@@ -316,5 +316,15 @@
     },
     "LockDateTime": "2019-10-28T12:28:35.6539035+08:00",
     "ModuleType": 2
+  },
+  {
+    "ModuleName": "phone page (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T12:28:48.6849044+08:00",
+    "ModuleType": 1
   }
 ]
