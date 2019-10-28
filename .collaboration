@@ -161,11 +161,29 @@
   },
   {
     "ModuleName": "phonepage",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T14:31:58.3390974+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\phonepage.json"
+    ]
   },
   {
     "ModuleName": "phone",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T14:31:58.3390974+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\phone.json"
+    ]
   },
   {
     "ModuleName": "FGC_修改密码",
