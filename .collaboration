@@ -1,10 +1,23 @@
 [
   {
     "ModuleName": "Pages\\Permission",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4952445+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Collaboration01",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4962444+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\Permission\\Collaboration01.json",
@@ -14,11 +27,29 @@
   },
   {
     "ModuleName": "phone",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4962444+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\Permission\\phone.json"
+    ]
   },
   {
     "ModuleName": "phonepage",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4962444+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\Permission\\phonepage.json"
+    ]
   },
   {
     "ModuleName": "Pages\\ReadOnly",
@@ -222,10 +253,46 @@
   },
   {
     "ModuleName": "Pages\\Permission\\TestFolder",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4952445+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "NewPage",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4972438+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Permission\\TestFolder\\NewPage.json"
+    ]
+  },
+  {
+    "ModuleName": "Pages\\Permission_Colloboration\\TestFolder",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4952445+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\Permission_Colloboration",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:36:33.4952445+08:00",
+    "ModuleType": 6
   }
 ]
