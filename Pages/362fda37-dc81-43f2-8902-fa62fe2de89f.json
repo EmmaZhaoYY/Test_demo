@@ -1,0 +1,265 @@
+{
+  "Rows": {
+    "Sizes": {
+      "0": 20.0
+    },
+    "Count": 11,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Count": 22
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "FGC_LoginUser"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "FGC_LoginUser"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "レコード番号"
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 3,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "予算"
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "部門"
+    },
+    "3,11": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 3,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "FGC_LoginUser",
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "実績"
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "勘定科目"
+    },
+    "5,11": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 3,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "FGC_LoginUser"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "事业部经理"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "達成率"
+    },
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "日付"
+    },
+    "7,11": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, Forguncy",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "用户"
+    },
+    "9,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+            "JavaScript": "alert(\"Testing information!\");",
+            "ID": "cc8fdd1091b14f1aac2e58f42719cea0"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "董事长"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,8",
+    "3,1,1,8",
+    "5,1,1,8",
+    "1,11,1,9",
+    "3,11,1,9",
+    "5,11,1,9",
+    "7,1,1,8",
+    "7,11,1,9",
+    "9,1,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, Forguncy",
+    "ParentPageName": "Collaboration01"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

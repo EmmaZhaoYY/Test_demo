@@ -41,17 +41,7 @@
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "ApplicationSettings",
-      "favicon.ico"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
@@ -83,31 +73,11 @@
   },
   {
     "ModuleName": "ReadOnlyTest",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4614669+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnly\\ReadOnlyTest.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4624659+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnly\\ReadOnlyTest01.json",
-      "image\\UserCustomCellTypeFiles\\CarouselCellType\\Images\\download (1).jpg",
-      "image\\UserCustomCellTypeFiles\\CarouselCellType\\Images\\download (3).jpg"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ReadOnlyTest02",
@@ -119,29 +89,11 @@
   },
   {
     "ModuleName": "ROPhone01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4624659+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnly\\ROPhone01.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "ROphone02",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4624659+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\ReadOnly\\ROphone02.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\ReadOnly",
@@ -193,43 +145,15 @@
   },
   {
     "ModuleName": "母版页1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4634657+08:00",
-    "ModuleType": 4,
-    "ToRemoveFiles": [
-      "Pages\\母版页1.json"
-    ]
+    "ModuleType": 4
   },
   {
     "ModuleName": "母版页2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4634657+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "Pages\\母版页2.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "Collaboration01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:55:48.4634657+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Permission\\Collaboration01.json",
-      "UserTemplateFile\\TotalRow-Export-03 (1)368f30a3dce64aabbcf82ba4c7aaee0f.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\Permission",
@@ -245,122 +169,50 @@
   },
   {
     "ModuleName": "FGC_修改密码",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_修改密码_手机版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "FGC_忘记密码",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_忘记密码_手机版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "FGC_修改用户信息",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_修改用户信息_手机版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "FGC_登录",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_登录_手机版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "FGC_重置密码发送邮件成功",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_重置密码发送邮件成功_手机版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "FGC_重置密码",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_重置密码_手机版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T13:54:54.8325478+08:00",
     "ModuleType": 2
   }
 ]

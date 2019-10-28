@@ -64,7 +64,6 @@
             "Scope": 2,
             "Enabled": true,
             "AllowRoles": [
-              "FGC_Anonymous",
               "FGC_LoginUser"
             ]
           },
@@ -72,7 +71,6 @@
             "Scope": 1,
             "Enabled": true,
             "AllowRoles": [
-              "FGC_Anonymous",
               "FGC_LoginUser"
             ]
           }
@@ -104,14 +102,22 @@
             "Scope": 2,
             "Enabled": true,
             "AllowRoles": [
-              "FGC_Anonymous"
+              "FGC_Anonymous",
+              "FGC_LoginUser",
+              "Administrator",
+              "事业部经理",
+              "董事长"
             ]
           },
           {
             "Scope": 1,
             "Enabled": true,
             "AllowRoles": [
-              "FGC_Anonymous"
+              "FGC_Anonymous",
+              "FGC_LoginUser",
+              "Administrator",
+              "事业部经理",
+              "董事长"
             ]
           }
         ]
@@ -1621,7 +1627,7 @@
             "IsBuiltInSelectedIconPath": false,
             "IsOldMenuPath": false,
             "CanVisitRoleList": [
-              "FGC_Anonymous"
+              "Administrator"
             ],
             "SubItems": [
               {
@@ -1839,6 +1845,13 @@
         ]
       }
     },
+    "34,24": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, Forguncy",
+        "ListviewName": "表格1",
+        "TemplatePageName": "362fda37-dc81-43f2-8902-fa62fe2de89f"
+      }
+    },
     "36,2": {
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, Forguncy",
@@ -1858,6 +1871,108 @@
           }
         ]
       }
+    },
+    "40,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "予算実績",
+        "RowIndex": 40,
+        "ColumnIndex": 1,
+        "ColumnCount": 22,
+        "RowCount": 5,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "CompareType": 5,
+          "ColumnBindingInfo": {
+            "TableName": "予算実績",
+            "ColumnName": "ID"
+          },
+          "Value": "25",
+          "Id": "2df5ce49-05ca-4484-b44d-becdbf821903"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "41,1": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "レコード番号"
+      },
+      "NameUsedInJavaScript": "レコード番号"
+    },
+    "41,5": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "部門"
+      },
+      "NameUsedInJavaScript": "部門"
+    },
+    "41,7": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "勘定科目"
+      },
+      "NameUsedInJavaScript": "勘定科目"
+    },
+    "41,10": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "日付"
+      },
+      "NameUsedInJavaScript": "日付"
+    },
+    "41,13": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "年度"
+      },
+      "NameUsedInJavaScript": "年度"
+    },
+    "41,14": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "年"
+      },
+      "NameUsedInJavaScript": "年"
+    },
+    "41,15": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "月"
+      },
+      "NameUsedInJavaScript": "月"
+    },
+    "41,16": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "予算"
+      },
+      "NameUsedInJavaScript": "予算"
+    },
+    "41,17": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "実績"
+      },
+      "NameUsedInJavaScript": "実績"
+    },
+    "41,18": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "達成率"
+      },
+      "NameUsedInJavaScript": "達成率"
+    },
+    "41,19": {
+      "BindingInfo": {
+        "TableName": "予算実績",
+        "ColumnName": "用户"
+      },
+      "NameUsedInJavaScript": "用户"
     }
   },
   "StyleDatas": {
@@ -1902,6 +2017,37 @@
         "FontFamily": 2,
         "Foreground": 4,
         "Underline": true
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
       }
     ],
     "Types": {
@@ -1912,7 +2058,13 @@
         "Center",
         "Blue",
         "[$$-409] #,##0.00;[$$-409] (#,##0.00);[$$-409] \"-\"??;@",
-        "[AUTO]General"
+        "[AUTO]General",
+        "DarkGray"
+      ],
+      "Borders": [
+        {
+          "Color": 7
+        }
       ]
     },
     "CellStyles": {
@@ -2129,6 +2281,7 @@
       "34,17": 1,
       "34,18": 1,
       "34,19": 1,
+      "34,24": 10,
       "35,2": 8,
       "36,2": 9,
       "36,3": 1,
@@ -2183,7 +2336,57 @@
       "38,16": 1,
       "38,17": 1,
       "38,18": 1,
-      "38,19": 1
+      "38,19": 1,
+      "40,1": 11,
+      "40,2": 12,
+      "40,3": 12,
+      "40,4": 12,
+      "40,5": 12,
+      "40,6": 12,
+      "40,7": 12,
+      "40,8": 12,
+      "40,9": 12,
+      "40,10": 12,
+      "40,11": 12,
+      "40,12": 12,
+      "40,13": 12,
+      "40,14": 12,
+      "40,15": 12,
+      "40,16": 12,
+      "40,17": 12,
+      "40,18": 12,
+      "40,19": 12,
+      "40,20": 12,
+      "40,21": 12,
+      "40,22": 13,
+      "41,1": 14,
+      "41,22": 15,
+      "42,1": 14,
+      "42,22": 15,
+      "43,1": 14,
+      "43,22": 15,
+      "44,1": 16,
+      "44,2": 17,
+      "44,3": 17,
+      "44,4": 17,
+      "44,5": 17,
+      "44,6": 17,
+      "44,7": 17,
+      "44,8": 17,
+      "44,9": 17,
+      "44,10": 17,
+      "44,11": 17,
+      "44,12": 17,
+      "44,13": 17,
+      "44,14": 17,
+      "44,15": 17,
+      "44,16": 17,
+      "44,17": 17,
+      "44,18": 17,
+      "44,19": 17,
+      "44,20": 17,
+      "44,21": 17,
+      "44,22": 18
     },
     "SheetStyle": {
       "FontFamily": 2
@@ -2247,7 +2450,17 @@
     "25,32,8,9",
     "21,43,1,6",
     "23,43,3,5",
-    "27,43,6,8"
+    "27,43,6,8",
+    "42,1,3,22",
+    "40,1,1,4",
+    "41,1,1,4",
+    "40,5,1,2",
+    "41,5,1,2",
+    "40,7,1,3",
+    "41,7,1,3",
+    "40,10,1,3",
+    "41,10,1,3",
+    "34,24,11,35"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
