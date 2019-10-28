@@ -201,12 +201,12 @@
   },
   {
     "ModuleName": "Collaboration01",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "Sunny",
       "Email": "Emma@mail.com"
     },
-    "LockDateTime": "2019-10-28T10:39:21.7295319+08:00",
+    "LockDateTime": "2019-10-28T10:40:02.2931351+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\Collaboration01.json"
