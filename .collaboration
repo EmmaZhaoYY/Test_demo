@@ -225,5 +225,15 @@
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
     "ModuleType": 14
+  },
+  {
+    "ModuleName": "Pages\\Permission\\TestFolder",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T15:33:50.8913136+08:00",
+    "ModuleType": 6
   }
 ]
