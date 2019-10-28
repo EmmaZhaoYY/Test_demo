@@ -208,19 +208,7 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T15:34:41.7831887+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\fgc_logo_dark.png",
-      "image\\fgc_logo_light.png",
-      "image\\pointed.png",
-      "image\\皇冠.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
@@ -240,22 +228,10 @@
   },
   {
     "ModuleName": "Pages\\Permission\\TestFolder",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T15:33:50.8913136+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "NewPage",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-10-28T15:34:20.6754008+08:00",
     "ModuleType": 1
   }
 ]
