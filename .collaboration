@@ -1,7 +1,18 @@
 [
   {
     "ModuleName": "Collaboration01",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-10-28T18:26:31.3977352+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Permission_Colloboration\\Collaboration01.json",
+      "Pages\\362fda37-dc81-43f2-8902-fa62fe2de89f.json",
+      "UserTemplateFile\\TotalRow-Export-03 (1)368f30a3dce64aabbcf82ba4c7aaee0f.xlsx"
+    ]
   },
   {
     "ModuleName": "phone",
