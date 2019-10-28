@@ -211,7 +211,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"Testing information!\");",
-            "ID": "a83a4f998e6348d6b6230a685cdf2ce2"
+            "ID": "adf17a683aae4d7396790141f33287df"
           }
         ],
         "TemplateKey": "_RS_Normal_Style2",
