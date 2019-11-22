@@ -37,21 +37,7 @@
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "0,11": {
@@ -61,25 +47,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(true);",
-            "ID": "30d472ed749e4cdcbdd45de28bbfa0e0"
+            "ID": "2f5ecb5bc82e48efb542544ce26555f3"
           }
         ],
         "Text": "Javscript",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "1,1": {
@@ -98,20 +70,6 @@
         },
         "IconSize": 25.0,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "xA123456"
       }
     },
@@ -133,21 +91,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,11": {
@@ -157,25 +101,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(false);",
-            "ID": "29c97b2306ee4e9ba3e5713e7120dfad"
+            "ID": "b63187e0d0cb44eb98d4b251807170ad"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,17": {
@@ -189,21 +119,7 @@
         "$type": "Forguncy.MultilineTextBox, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "Input information",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       }
     },
     "3,12": {
@@ -224,21 +140,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,12": {
@@ -259,21 +161,7 @@
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "5,12": {
@@ -283,25 +171,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"muiltline\");\r\ncell.setReadOnly(false);",
-            "ID": "6d9f409145fd44c8bb6f76f95914245f"
+            "ID": "2b6364aeb7f74d9aa7a43bf3c6115e7f"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "7,1": {
@@ -329,20 +203,6 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "BindingInfo": {
@@ -353,21 +213,7 @@
     "8,4": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "ShowOnlyEdit": false,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ShowOnlyEdit": false
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -376,21 +222,7 @@
     },
     "8,7": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.NumberCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -399,21 +231,7 @@
     },
     "8,10": {
       "CellType": {
-        "$type": "Forguncy.DateCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.DateCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -424,21 +242,7 @@
     "8,14": {
       "CellType": {
         "$type": "Forguncy.TimeCellType, Forguncy",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -453,21 +257,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var p = Forguncy.Page;\r\nvar mylist = p.getListView(\"表格1\");\r\n p.getCell(0,\"date\").setReadOnly(true);",
-            "ID": "c6bda73f8ee84642b4360ec31375b992"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
+            "ID": "2df9b011540f4aeeb3af6c2db20218f9"
           }
         ]
       }

@@ -133,7 +133,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"muiltline textbox\");",
-            "ID": "eba77431427a4a06b5b811a8eced4fab"
+            "ID": "7a582e1b0be5479bab16f704e9f3e05d"
           }
         ],
         "UIPermissions": [
@@ -278,25 +278,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "RepeatRangeSettings": [],
             "NewOtherName": ""
           }
         ],
         "Text": "PDF",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "3,51": {
@@ -309,21 +296,7 @@
           }
         ],
         "Text": "Excel",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,25": {
@@ -565,21 +538,7 @@
           }
         ],
         "Text": "visible",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "9,2": {
@@ -1147,7 +1106,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"information\");",
-            "ID": "17d5f2c7765b4b9bbc411e83d52f09e3"
+            "ID": "93c1abb81d2246ecba192c891487124b"
           }
         ],
         "Text": "link",
@@ -1503,21 +1462,7 @@
             }
           }
         ],
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "22,23": {
@@ -1947,7 +1892,7 @@
             "ColumnName": "ID"
           },
           "Value": "25",
-          "Id": "48b77f86-37b8-4b09-8916-47883976b7e5"
+          "Id": "db74feae-513d-4f13-b14d-0233611dc71e"
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2"

@@ -25,21 +25,7 @@
           }
         ],
         "Text": "Excel",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,5": {
@@ -52,21 +38,7 @@
           }
         ],
         "Text": "Excel01",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,9": {
@@ -75,25 +47,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "RepeatRangeSettings": [],
             "NewOtherName": ""
           }
         ],
         "Text": "PDF",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,13": {
@@ -105,21 +64,7 @@
           }
         ],
         "Text": "Print",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,17": {
@@ -149,7 +94,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Export-03'!R2"
                   },
-                  "Id": "bf8fa0b1-7de4-4833-a7cc-723c5fee62a4"
+                  "Id": "fea8b045-0f3d-47c9-8d8a-402f41cea6b5"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -162,10 +107,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Export-03'!R2"
                   },
-                  "Id": "cc7e3599-340b-4297-bb73-0f14b95e1120"
+                  "Id": "16d50237-1166-41cc-8296-8649917779c8"
                 },
                 "RelationType": 1,
-                "Id": "71ec2883-fae4-41e7-b73e-2b4e11830acf"
+                "Id": "169e4661-4183-43d9-a0bf-f8897278b21f"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -178,29 +123,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                   "SerializeProperty": "='TotalRow-Export-03'!R2"
                 },
-                "Id": "df264797-66bb-4377-b083-19903979422a"
+                "Id": "2108e763-f1d6-4292-8297-711a776d383a"
               },
               "RelationType": 1,
-              "Id": "9fd02da0-7408-4a09-9b3b-9d080ba84a8b"
+              "Id": "4ccebebd-b619-4340-bd15-79d351b9fa8a"
             },
             "Params": [
               "=R2"
             ],
             "ID": "128d2e813d0449b6b6111b3af410fbf5"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -211,11 +142,17 @@
           "ContextMenuItems": [
             {
               "Text": "插入",
-              "Visible": true
+              "Visible": true,
+              "OperationType": 2
             },
             {
               "Text": "删除",
-              "Visible": true
+              "Visible": true,
+              "OperationType": 3
+            },
+            {
+              "Text": "复制并插入",
+              "OperationType": 4
             }
           ]
         },
@@ -241,7 +178,7 @@
             "ColumnName": "ID"
           },
           "Value": "1",
-          "Id": "30112d76-3a73-44c4-a57c-01e0c0a96c1a"
+          "Id": "b1e6b857-a65e-418a-9dea-d8a0bc868463"
         },
         "TopCondition": null,
         "ListViewStyleName": "totalrow样式"
@@ -363,21 +300,7 @@
     },
     "4,31": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -390,21 +313,7 @@
     },
     "4,35": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2

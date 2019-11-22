@@ -50,21 +50,7 @@
           }
         ],
         "Text": "Excel",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,6": {
@@ -73,25 +59,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "RepeatRangeSettings": [],
             "NewOtherName": ""
           }
         ],
         "Text": "PDF",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,10": {
@@ -105,21 +78,7 @@
           }
         ],
         "Text": "Table",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,14": {
@@ -131,21 +90,7 @@
           }
         ],
         "Text": "Print",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "3,2": {
@@ -234,21 +179,7 @@
     },
     "4,25": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -260,21 +191,7 @@
     },
     "4,29": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -303,21 +220,7 @@
           }
         ],
         "Text": "更改",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "更改"
@@ -334,21 +237,7 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "删除"
@@ -370,21 +259,7 @@
             "NewOtherName": ""
           }
         ],
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "17,2": {
@@ -486,21 +361,7 @@
     },
     "18,25": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -512,21 +373,7 @@
     },
     "18,29": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -555,21 +402,7 @@
           }
         ],
         "Text": "更改",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "更改"
@@ -586,21 +419,7 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "删除"

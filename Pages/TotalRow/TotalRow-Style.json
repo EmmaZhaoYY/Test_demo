@@ -54,21 +54,7 @@
         ],
         "Text": "Excel",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "1,6": {
@@ -77,26 +63,13 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "RepeatRangeSettings": [],
             "NewOtherName": ""
           }
         ],
         "Text": "PDF",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "1,11": {
@@ -127,7 +100,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Style'!L2"
                   },
-                  "Id": "edfc3a6b-9de8-4d26-8631-46b1a81a44d5"
+                  "Id": "1dd54adb-b261-4803-90fe-8549dc3e56ed"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -140,10 +113,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "='TotalRow-Style'!L2"
                   },
-                  "Id": "0aa1e97e-83f7-4a53-927f-cf5c9cb8b322"
+                  "Id": "42b752ae-1c7d-4827-ba32-97fda6825b24"
                 },
                 "RelationType": 1,
-                "Id": "efa1801c-ae0d-4b27-a993-8c599555ddcf"
+                "Id": "dd72e583-0daf-4bdf-b527-00cfb017b74d"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -156,29 +129,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                   "SerializeProperty": "='TotalRow-Style'!L2"
                 },
-                "Id": "970fe8d5-24aa-40bd-acb7-202cacf9a198"
+                "Id": "0f52c682-5106-4bbc-a2a9-71bf028c4cd8"
               },
               "RelationType": 1,
-              "Id": "a20bf87d-4fd4-41fd-863b-203fbbdd60eb"
+              "Id": "b90c8eef-f5d0-47cd-85ec-0549a8ffcd2b"
             },
             "Params": [
               "=L2"
             ],
             "ID": "c70d3f2d96bc4afbadccca2d6405171d"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -193,21 +152,7 @@
         ],
         "Text": "Print",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "3,2": {
@@ -331,21 +276,7 @@
     },
     "5,25": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -357,21 +288,7 @@
     },
     "5,29": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -400,21 +317,7 @@
           }
         ],
         "Text": "更改",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "更改"
@@ -431,21 +334,7 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "删除"
@@ -543,21 +432,7 @@
     },
     "18,25": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -569,21 +444,7 @@
     },
     "18,29": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2
@@ -612,21 +473,7 @@
           }
         ],
         "Text": "更改",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "更改"
@@ -643,21 +490,7 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "删除"
@@ -831,20 +664,6 @@
     "32,25": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Application/105_upload_5.svg",
         "BuiltIn": true,
         "Color": "Accent 6 0"
@@ -863,21 +682,7 @@
     },
     "32,29": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "TotalRowSetting": {
         "FormulaType": 2,
@@ -911,21 +716,7 @@
           }
         ],
         "Text": "更改",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "更改"
@@ -942,21 +733,7 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "TotalRowSetting": {
         "StaticText": "删除"

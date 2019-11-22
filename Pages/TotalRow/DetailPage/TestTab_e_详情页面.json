@@ -45,21 +45,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -69,21 +55,7 @@
     "7,14": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -94,21 +66,7 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "DecimalPlacesNumber": 4,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -118,21 +76,7 @@
     "11,14": {
       "CellType": {
         "$type": "Forguncy.DateCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -142,21 +86,7 @@
     "13,14": {
       "CellType": {
         "$type": "Forguncy.TimeCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -166,21 +96,7 @@
     "15,14": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "Style": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Style": 1
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -191,21 +107,7 @@
       "CellType": {
         "$type": "Forguncy.UserCellType, Forguncy",
         "Columns": 1,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -214,21 +116,7 @@
     },
     "19,14": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -237,21 +125,7 @@
     },
     "26,14": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "BindingInfo": {
         "TableName": "TestTab_e",
@@ -277,7 +151,7 @@
                     ]
                   },
                   "value": "添加",
-                  "Id": "cb94469c-cdc8-4359-8b0a-820a570d5719"
+                  "Id": "ecf33e62-1a64-43cb-8a9e-4ffbad064769"
                 },
                 "CommandList": [
                   {
@@ -302,7 +176,7 @@
                     ]
                   },
                   "value": "更改",
-                  "Id": "929f14aa-a16f-4755-a839-71e2694d4913"
+                  "Id": "ae6c1a73-4906-4e22-8b1e-4c24726c29f3"
                 },
                 "CommandList": [
                   {
@@ -322,21 +196,7 @@
             "PassValues": []
           }
         ],
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "33,16": {
@@ -350,21 +210,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },

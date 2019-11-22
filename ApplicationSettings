@@ -3,7 +3,6 @@
   <IntegrateWithOtherApplication>
     <Password>0eB%OV6N3D!o</Password>
   </IntegrateWithOtherApplication>
-  <StartPage>phonepage (2)</StartPage>
   <UserServicePort>29194</UserServicePort>
   <WebSitePort>64803</WebSitePort>
 </ApplicationSettings>

@@ -35,21 +35,7 @@
           }
         ],
         "Text": "table to excel",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,8": {
@@ -62,21 +48,7 @@
           }
         ],
         "Text": "page to excel",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,14": {
@@ -85,25 +57,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, Forguncy",
+            "RepeatRangeSettings": [],
             "NewOtherName": ""
           }
         ],
         "Text": "pdf",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "1,20": {
@@ -115,21 +74,7 @@
           }
         ],
         "Text": "print",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "3,2": {
@@ -155,20 +100,6 @@
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "1.单行设置单元格类型\n2.拖拽字段取消列头设置单元格类型然后勾选显示行头\r\n3.拖拽字段设置单元格类型。设置多列头"
       }
     },
@@ -179,20 +110,6 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "BindingInfo": {
@@ -202,21 +119,7 @@
     },
     "4,8": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.NumberCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -225,21 +128,7 @@
     },
     "4,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.NumberCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -248,21 +137,7 @@
     },
     "4,19": {
       "CellType": {
-        "$type": "Forguncy.DateCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.DateCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -271,21 +146,7 @@
     },
     "4,25": {
       "CellType": {
-        "$type": "Forguncy.TimeCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.TimeCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -295,21 +156,7 @@
     "4,30": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "ShowOnlyEdit": false,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ShowOnlyEdit": false
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -319,21 +166,7 @@
     "4,34": {
       "CellType": {
         "$type": "Forguncy.UserCellType, Forguncy",
-        "Columns": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Columns": 1
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -342,21 +175,7 @@
     },
     "4,39": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -366,21 +185,7 @@
     },
     "4,45": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -411,20 +216,6 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "TotalRowSetting": {
@@ -437,21 +228,7 @@
     },
     "15,8": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.ButtonCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -460,21 +237,7 @@
     },
     "15,14": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.NumberCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -483,21 +246,7 @@
     },
     "15,19": {
       "CellType": {
-        "$type": "Forguncy.DateCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.DateCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -506,21 +255,7 @@
     },
     "15,25": {
       "CellType": {
-        "$type": "Forguncy.TimeCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.TimeCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -530,21 +265,7 @@
     "15,30": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "ShowOnlyEdit": false,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ShowOnlyEdit": false
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -554,21 +275,7 @@
     "15,34": {
       "CellType": {
         "$type": "Forguncy.UserCellType, Forguncy",
-        "Columns": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Columns": 1
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -577,21 +284,7 @@
     },
     "15,39": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -601,21 +294,7 @@
     },
     "15,45": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -649,21 +328,7 @@
     },
     "28,7": {
       "CellType": {
-        "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.MultilineTextBox, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -674,21 +339,7 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
-        "Use1000Sepatator": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Use1000Sepatator": true
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -702,21 +353,7 @@
         "Increment": 10,
         "SpinButtonvisibility": 0,
         "Use1000Sepatator": true,
-        "WaterMark": ">0",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "WaterMark": ">0"
       },
       "BindingInfo": {
         "TableName": "表1",
@@ -739,20 +376,6 @@
           {
             "Value": "14:00",
             "DisplayValue": "14:00"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       },
@@ -779,20 +402,6 @@
             "Value": "2019/11/15",
             "DisplayValue": "2019/11/15"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "BindingInfo": {
@@ -812,20 +421,6 @@
             "Value": "1",
             "DisplayValue": "1"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "BindingInfo": {
@@ -844,21 +439,7 @@
     },
     "28,47": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.ImageCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "表1",

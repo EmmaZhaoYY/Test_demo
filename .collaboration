@@ -1,10 +1,22 @@
 [
   {
+    "ModuleName": "Pages\\Permission_Colloboration",
+    "ModuleType": 6
+  },
+  {
     "ModuleName": "Collaboration01",
     "ModuleType": 1
   },
   {
+    "ModuleName": "Collboration",
+    "ModuleType": 1
+  },
+  {
     "ModuleName": "phone",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "phonepage (2)",
     "ModuleType": 2
   },
   {
@@ -92,11 +104,35 @@
     "ModuleType": 2
   },
   {
+    "ModuleName": "FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改用户信息_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_忘记密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
     "ModuleName": "FGC_维护中_手机版",
     "ModuleType": 2
   },
   {
     "ModuleName": "FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
     "ModuleType": 2
   },
   {
@@ -108,11 +144,35 @@
     "ModuleType": 1
   },
   {
+    "ModuleName": "FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_忘记密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_登录",
+    "ModuleType": 1
+  },
+  {
     "ModuleName": "FGC_维护中",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功",
     "ModuleType": 1
   },
   {
@@ -158,65 +218,5 @@
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
     "ModuleType": 14
-  },
-  {
-    "ModuleName": "Pages\\Permission_Colloboration",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "phonepage (2)",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Collboration",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_修改密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_修改密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_忘记密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_忘记密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_修改用户信息",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_修改用户信息_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_登录",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_登录_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_重置密码发送邮件成功",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_重置密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_重置密码_手机版",
-    "ModuleType": 2
   }
 ]

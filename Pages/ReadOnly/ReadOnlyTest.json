@@ -242,21 +242,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,1": {
@@ -267,21 +253,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "2,7": {
@@ -302,21 +274,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,10": {
@@ -326,25 +284,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(true);",
-            "ID": "6c1e563928774fc8bfa5115321dfc048"
+            "ID": "c5987d5ef88148f2bede011de7f38e49"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,14": {
@@ -359,21 +303,7 @@
           }
         ],
         "Text": "TC只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,18": {
@@ -414,21 +344,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,23": {
@@ -436,20 +352,6 @@
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "Number",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 12500
       }
     },
@@ -471,21 +373,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,31": {
@@ -506,21 +394,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,34": {
@@ -530,25 +404,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number01\");\r\ncell.setReadOnly(true);",
-            "ID": "437a16d8de1d44b7951b21625e8a34f3"
+            "ID": "3c38d017ada04c5eb57d20467c01b64d"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,38": {
@@ -558,25 +418,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number01\");\r\ncell.setReadOnly(false);",
-            "ID": "aac6b50590204a2d912568c2b9ba29dd"
+            "ID": "4ad226930d9a491399662262734237c5"
           }
         ],
         "Text": "Javascript读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "3,1": {
@@ -597,21 +443,7 @@
         ],
         "Text": "value",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "3,29": {
@@ -624,20 +456,6 @@
           {
             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
             "Message": "Image read only property！"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ],
         "ImagePath": "Application/143_shot_1.svg",
@@ -663,21 +481,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "3,51": {
@@ -685,20 +489,6 @@
         "$type": "Forguncy.UploadImageCellType, Forguncy",
         "TemplateKey": "样式1",
         "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Application/102_upload_2.svg",
         "BuiltIn": true,
         "Color": "Accent 6 -25"
@@ -722,21 +512,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,1": {
@@ -747,21 +523,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -799,21 +561,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,10": {
@@ -823,25 +571,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"textbox\");\r\ncell.setReadOnly(false);",
-            "ID": "f280f6e854e94c43a1c4aff52653327d"
+            "ID": "aac3c6a1380b4e6d9ed6ef9c1bf0eaaf"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,14": {
@@ -856,21 +590,7 @@
           }
         ],
         "Text": "TC读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,18": {
@@ -911,21 +631,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,23": {
@@ -936,20 +642,6 @@
         "SpinButtonvisibility": 0,
         "Use1000Sepatator": true,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 12.564
       }
     },
@@ -971,21 +663,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,31": {
@@ -1006,21 +684,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,34": {
@@ -1030,25 +694,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number02\");\r\ncell.setReadOnly(true);",
-            "ID": "bfb9bf3feb214f5ab9f418bf9745e841"
+            "ID": "28eef711fdc74ec1bd04ea602bb33130"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,38": {
@@ -1058,25 +708,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"number02\");\r\ncell.setReadOnly(false);",
-            "ID": "bcac649f07244ef9bff6ca5ef57cb922"
+            "ID": "ccff55deaf8e4b6eaa1b948fadee1fa1"
           }
         ],
         "Text": "Javascript读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "5,48": {
@@ -1097,21 +733,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "6,1": {
@@ -1122,21 +744,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "6,7": {
@@ -1149,41 +757,13 @@
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "textbox",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       }
     },
     "6,23": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "自定义样式",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 45
       },
       "ConditionFormatRulesCollection": {
@@ -1219,20 +799,6 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "number",
         "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 12500
       }
     },
@@ -1254,21 +820,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "6,36": {
@@ -1298,20 +850,6 @@
     "7,44": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Application/105_upload_5.svg",
         "BuiltIn": true,
         "Color": "Accent 6 0"
@@ -1335,21 +873,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "7,51": {
@@ -1359,25 +883,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage\");\r\ncell.setReadOnly(true);",
-            "ID": "f370341e5eec41d5bb7da86cf215b2ee"
+            "ID": "07462469ebd64786a210326c372d3437"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "8,23": {
@@ -1390,21 +900,7 @@
           }
         ],
         "Text": "Hyperlink",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "8,28": {
@@ -1425,42 +921,14 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,1": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
         "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal5",
-        "WaterMark": "Mutiline",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "WaterMark": "Mutiline"
       }
     },
     "9,8": {
@@ -1481,21 +949,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,11": {
@@ -1505,25 +959,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"muiltline\");\r\ncell.setReadOnly(true);",
-            "ID": "7b3745440f1f4ec78e1d9367d15db814"
+            "ID": "1ba26c166181433e9dbc33898381be36"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,15": {
@@ -1538,21 +978,7 @@
           }
         ],
         "Text": "TC只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,19": {
@@ -1593,21 +1019,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,23": {
@@ -1617,26 +1029,12 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"Test read only property!\");",
-            "ID": "447823093d974e1084897484ceae076b"
+            "ID": "fab3e1212aaa4e758e95c03ff3a9a394"
           }
         ],
         "Text": "value",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "9,28": {
@@ -1657,21 +1055,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,48": {
@@ -1692,21 +1076,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,51": {
@@ -1716,25 +1086,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage\");\r\ncell.setReadOnly(false);",
-            "ID": "8ab9d9700d794d3a8d1a2698093a7f32"
+            "ID": "d3511935416a4e68b333db5ec75524d9"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,1": {
@@ -1755,21 +1111,7 @@
         ],
         "Text": "value",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "11,8": {
@@ -1790,21 +1132,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,11": {
@@ -1814,25 +1142,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"muiltline\");\r\ncell.setReadOnly(false);",
-            "ID": "87bc07aed8504436bf998ca089a6ba9e"
+            "ID": "3f84f4caa6d54cfc895b049d8c6c303e"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,15": {
@@ -1847,21 +1161,7 @@
           }
         ],
         "Text": "TC读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,19": {
@@ -1902,21 +1202,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,26": {
@@ -1938,20 +1224,6 @@
           }
         ],
         "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "项目3"
       }
     },
@@ -1994,20 +1266,6 @@
           }
         ],
         "AddNullItemWhenBinding": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 2016
       },
       "ConditionFormatRulesCollection": {
@@ -2073,21 +1331,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "11,51": {
@@ -2097,45 +1341,17 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage01\");\r\ncell.setReadOnly(true);",
-            "ID": "edb295446694455a85810b374c4a8394"
+            "ID": "083bef33f9ef4f1ca1feaa3b72adc616"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "12,1": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -2191,20 +1407,6 @@
             "DisplayValue": "项目5"
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "项目5"
       }
     },
@@ -2226,21 +1428,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "12,32": {
@@ -2261,21 +1449,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "12,35": {
@@ -2285,25 +1459,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo01\");\r\ncell.setReadOnly(true);",
-            "ID": "567cf30ee1704f15ac14f5c415942c1c"
+            "ID": "94d708c7e8e143e780f7d3ef23c7f03b"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "12,38": {
@@ -2313,25 +1473,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo01\");\r\ncell.setReadOnly(false);",
-            "ID": "cc12c5df92594de483ea34312677c59b"
+            "ID": "bd9c13d406d14de390f3863c455c09b0"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "13,48": {
@@ -2352,21 +1498,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "13,51": {
@@ -2376,25 +1508,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"uploadimage01\");\r\ncell.setReadOnly(false);",
-            "ID": "721cc10e294b4de5ae65d5251c4b8787"
+            "ID": "3ae71c111ac2413bbd9400da9079c3c2"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "14,23": {
@@ -2425,20 +1543,6 @@
             "DisplayValue": "项目5"
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "项目5"
       }
     },
@@ -2460,21 +1564,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "14,32": {
@@ -2495,21 +1585,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "14,35": {
@@ -2519,25 +1595,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo02\");\r\ncell.setReadOnly(true);",
-            "ID": "a1daed063c2341e985ba42b2713810c6"
+            "ID": "08ea81874d6e473fb10541c408052cec"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "14,38": {
@@ -2547,45 +1609,17 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo02\");\r\ncell.setReadOnly(false);",
-            "ID": "7c1667e7ce8f4e4d8f647e906399c374"
+            "ID": "c006c386665a4c86a6eaaec7149a02b6"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "16,1": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "Caption": "Enable",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Caption": "Enable"
       }
     },
     "16,5": {
@@ -2606,21 +1640,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "16,8": {
@@ -2641,21 +1661,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "16,11": {
@@ -2665,25 +1671,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox01\");\r\ncell.setReadOnly(true);",
-            "ID": "9fc6fd95a2364733adea905b686ed5dd"
+            "ID": "b703e936c9c048c6ba772cc31b8ffe47"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "16,15": {
@@ -2693,45 +1685,17 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox01\");\r\ncell.setReadOnly(false);",
-            "ID": "cbca5fab1d55443c83f2288ed75e2aa6"
+            "ID": "612748029b2f47f9978ef6b2e00417b6"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "16,19": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "Caption": "Enable",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Caption": "Enable"
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -2779,20 +1743,6 @@
             "DisplayValue": "项目5"
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "项目5"
       }
     },
@@ -2814,21 +1764,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "16,32": {
@@ -2849,21 +1785,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "16,35": {
@@ -2873,25 +1795,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(true);",
-            "ID": "a5416c89675f41bd9b1739cc13181662"
+            "ID": "13f56e43af4a43ca88d309bc5d0ca241"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "16,38": {
@@ -2901,44 +1809,16 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(false);",
-            "ID": "0d4dfd36ac544449b7d4a61a757747b2"
+            "ID": "908256086e01418db8c6c41f29f9e272"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "16,41": {
       "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.AttachmentCelltype, Forguncy"
       },
       "CellComment": {
         "Comments": "读写属性控制attachment不添加或者删除上传文件但是点击文件链接依旧可以正常下载",
@@ -2953,20 +1833,6 @@
     "16,51": {
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ReadOnly": true
       },
       "BindingInfo": {
@@ -2978,21 +1844,7 @@
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
         "Caption": "ReadOnly",
-        "Style": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Style": 1
       }
     },
     "18,5": {
@@ -3013,21 +1865,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "18,8": {
@@ -3048,21 +1886,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "18,11": {
@@ -3072,25 +1896,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox02\");\r\ncell.setReadOnly(true);",
-            "ID": "aaa2ef2a6cc54af4b5ea6d8c945f24d9"
+            "ID": "1aa1de5c347b42b4b8a5449c917b7f09"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "18,15": {
@@ -3100,25 +1910,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox02\");\r\ncell.setReadOnly(false);",
-            "ID": "bed0d63748e74459a335154845f9f292"
+            "ID": "3172fda1f5864ecf817b77d8f5c1a8f3"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "18,19": {
@@ -3127,21 +1923,7 @@
         "Caption": "Enable",
         "Style": 1,
         "PrimaryColor": "Accent 2 0",
-        "SecondaryColor": "Accent 3 0",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "SecondaryColor": "Accent 3 0"
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -3191,20 +1973,6 @@
             "DisplayValue": "项目5"
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "项目5"
       }
     },
@@ -3226,21 +1994,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "18,32": {
@@ -3261,21 +2015,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "18,35": {
@@ -3285,25 +2025,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo04\");\r\ncell.setReadOnly(true);",
-            "ID": "addb0af72e1e457e9ec09b19b25cf923"
+            "ID": "8aad0ea94a4d4920b25639008977a722"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "18,38": {
@@ -3313,45 +2039,17 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo04\");\r\ncell.setReadOnly(false);",
-            "ID": "fe81c5d088f64e6db3faff211e6a0edc"
+            "ID": "c9d4e7a21e8740dc8c12bd8d7199b721"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "20,1": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
-        "Style": 2,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Style": 2
       }
     },
     "20,5": {
@@ -3372,21 +2070,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "20,8": {
@@ -3407,21 +2091,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "20,11": {
@@ -3431,25 +2101,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox03\");\r\ncell.setReadOnly(true);",
-            "ID": "175f2aa7313d45da8684e0f710180994"
+            "ID": "bd7c85e1be1a49a8bd8d39b64cc98208"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "20,15": {
@@ -3459,25 +2115,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox03\");\r\ncell.setReadOnly(false);",
-            "ID": "2f662e51dc07496b87d02ae5df6da854"
+            "ID": "4553be81696e40caaf126c9a6bea7f47"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "20,19": {
@@ -3486,21 +2128,7 @@
         "CellDefaultValue": true,
         "Style": 2,
         "PrimaryColor": "Accent 6 0",
-        "SecondaryColor": "Accent 3 0",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "SecondaryColor": "Accent 3 0"
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -3532,20 +2160,6 @@
             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
             "Message": "Read Only Property!"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
@@ -3567,21 +2181,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "21,32": {
@@ -3602,21 +2202,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "21,35": {
@@ -3626,25 +2212,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date01\");\r\ncell.setReadOnly(true);",
-            "ID": "b390705ac11d4b7fb072d6783fc17b4a"
+            "ID": "dcad4ae923244b0eb323c9e0263b08cf"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "21,38": {
@@ -3654,25 +2226,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date01\");\r\ncell.setReadOnly(false);",
-            "ID": "1d4e99449d8b4659a6fb54af32f3280c"
+            "ID": "387a3000f7b642f4b5f83a531a90d5e5"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "21,41": {
@@ -3693,21 +2251,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "21,45": {
@@ -3728,21 +2272,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "21,51": {
@@ -3763,21 +2293,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "21,55": {
@@ -3801,42 +2317,14 @@
           }
         ],
         "Text": "Add",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "22,1": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
         "Caption": "Select",
-        "Style": 3,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Style": 3
       }
     },
     "22,5": {
@@ -3857,21 +2345,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "22,8": {
@@ -3892,21 +2366,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "22,11": {
@@ -3916,25 +2376,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox04\");\r\ncell.setReadOnly(true);",
-            "ID": "83410bc4b3224b4ca8719b80b8f6eb75"
+            "ID": "c16e7b6b9f23403c9802cd6d39379bfa"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "22,15": {
@@ -3944,25 +2390,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"checkbox04\");\r\ncell.setReadOnly(false);",
-            "ID": "60484b77e6334fd69f0f253138203106"
+            "ID": "65ac492548c343799bb4451add35a210"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "22,19": {
@@ -3972,21 +2404,7 @@
         "Caption": "Enable",
         "Style": 3,
         "PrimaryColor": "Accent 5 0",
-        "SecondaryColor": "Accent 2 0",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "SecondaryColor": "Accent 2 0"
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -4010,21 +2428,7 @@
       "CellType": {
         "$type": "Forguncy.DateCellType, Forguncy",
         "DateFormat": "yy/MM/dd",
-        "TemplateKey": "自定义样式",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "自定义样式"
       }
     },
     "23,29": {
@@ -4045,21 +2449,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "23,32": {
@@ -4080,21 +2470,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "23,35": {
@@ -4104,25 +2480,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date02\");\r\ncell.setReadOnly(true);",
-            "ID": "c8e7f065a74841c4b3da81fc06d3a68d"
+            "ID": "7559cad2027e4e35a21cd936d1bf82fd"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "23,38": {
@@ -4132,25 +2494,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date02\");\r\ncell.setReadOnly(false);",
-            "ID": "d299422c90ad457383b6ef53d0edcac8"
+            "ID": "8d9d36edba584a83be4de8575592fe2f"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "23,41": {
@@ -4160,25 +2508,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"attachment\");\r\ncell.setReadOnly(true);",
-            "ID": "63b040d47dd34d9d8d2433867801ea1b"
+            "ID": "39df17efe32b46119e930e78de84aa54"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "23,45": {
@@ -4188,25 +2522,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"attachment\");\r\ncell.setReadOnly(false);",
-            "ID": "8c5dcd0c4980400db17116b8d3d8b89d"
+            "ID": "5aa469e3e7f44639b14f1245bf8d4a1c"
           }
         ],
         "Text": "Javascript读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "23,51": {
@@ -4216,25 +2536,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"attachment01\");\r\ncell.setReadOnly(true);",
-            "ID": "ed333642a72948f4aa93cc8837faec7c"
+            "ID": "2c23ecc5482d4265bff21f2a206135df"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,1": {
@@ -4252,20 +2558,6 @@
           {
             "Value": "项目3",
             "DisplayValue": "项目3"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -4288,21 +2580,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,12": {
@@ -4323,21 +2601,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,15": {
@@ -4347,25 +2611,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group01\");\r\ncell.setReadOnly(true);",
-            "ID": "8053eb1c15634a5e83c3a49668be40e8"
+            "ID": "a0bb5e94034b4a1883b4de2602fa0bde"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,19": {
@@ -4375,25 +2625,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group01\");\r\ncell.setReadOnly(false);",
-            "ID": "f02a17ea755a466eb5dda94507797029"
+            "ID": "f5b2a8aca7034e09b73192e1e6a62f4f"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,23": {
@@ -4405,20 +2641,6 @@
           {
             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
             "Message": "Message box!!"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -4441,21 +2663,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,32": {
@@ -4476,21 +2684,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,35": {
@@ -4500,25 +2694,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(true);",
-            "ID": "a9a0c4f20de6473f90cb24fdd500b642"
+            "ID": "cfba8e975a8e48e0a8f0423e04a33268"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "25,38": {
@@ -4528,25 +2708,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"combo03\");\r\ncell.setReadOnly(false);",
-            "ID": "700228382f524af59332a3d55d0710e2"
+            "ID": "5930912c75294d2fa7e2f5a969d7b7dd"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "25,41": {
@@ -4603,20 +2769,6 @@
             "Value": "项目3",
             "DisplayValue": "项目3"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
@@ -4638,21 +2790,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "27,12": {
@@ -4673,21 +2811,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "27,15": {
@@ -4697,25 +2821,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group02\");\r\ncell.setReadOnly(true);",
-            "ID": "9160dac6b44042feb711ee14ed32747b"
+            "ID": "29b2ccad2c444dd287fe86e33d9846d2"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "27,19": {
@@ -4725,25 +2835,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group02\");\r\ncell.setReadOnly(false);",
-            "ID": "75070e9e02034d168bd08486a9def68f"
+            "ID": "30b5e320284b4e539dbdf4e5e7b540f4"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "27,23": {
@@ -4754,21 +2850,7 @@
           "SerializeProperty": "=NOW()"
         },
         "DateFormat": "yy年MM月dd日",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "27,29": {
@@ -4789,21 +2871,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "27,32": {
@@ -4824,21 +2892,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "27,35": {
@@ -4848,25 +2902,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date04\");\r\ncell.setReadOnly(true);",
-            "ID": "270c3ca6535543baaf7db27c87babd89"
+            "ID": "2b0f85a9829c4f48a9ae47838e67641b"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "27,38": {
@@ -4876,25 +2916,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"date04\");\r\ncell.setReadOnly(false);",
-            "ID": "15a4faa9b0fe407abe35da3dbcd72a08"
+            "ID": "d291ec75ee28466582fb434709dcfe3c"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "29,1": {
@@ -4913,20 +2939,6 @@
           {
             "Value": "项目3",
             "DisplayValue": "项目3"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -4949,21 +2961,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "29,12": {
@@ -4984,21 +2982,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "29,15": {
@@ -5008,25 +2992,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group03\");\r\ncell.setReadOnly(true);",
-            "ID": "7458f7c2f25d47a7b6b69a0fb18dc34c"
+            "ID": "061013a00a344cba82c657ae70f296c1"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "29,19": {
@@ -5036,25 +3006,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group03\");\r\ncell.setReadOnly(false);",
-            "ID": "73dc46a4770a441ebd8a2c505d508554"
+            "ID": "cdea824e72cb40d6acb8e7cffc9c0758"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "29,23": {
@@ -5066,21 +3022,7 @@
         },
         "ShowCalendarScrollBar": true,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -5117,41 +3059,13 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "29,35": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 125
       },
       "ConditionFormatRulesCollection": {
@@ -5190,21 +3104,7 @@
         ],
         "Text": "value",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "31,1": {
@@ -5223,20 +3123,6 @@
           {
             "Value": "项目3",
             "DisplayValue": "项目3"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -5259,21 +3145,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,12": {
@@ -5294,21 +3166,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,15": {
@@ -5318,25 +3176,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group04\");\r\ncell.setReadOnly(true);",
-            "ID": "563edcf0fbcf4602b211832f02b1dbf0"
+            "ID": "f919fbf52c3a4985931110c41343abe4"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,19": {
@@ -5346,25 +3190,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"group04\");\r\ncell.setReadOnly(false);",
-            "ID": "8b1d9e0f61e1468c96a9b107cd56f3f0"
+            "ID": "8323f2ace7e8492db3b9ccc18d306839"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,26": {
@@ -5372,20 +3202,6 @@
         "$type": "Forguncy.TimeCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": {
           "$type": "Forguncy.TimeObject, Forguncy",
           "Value": "16:00:00"
@@ -5435,21 +3251,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,41": {
@@ -5478,7 +3280,7 @@
                     ]
                   },
                   "value": "Administrator",
-                  "Id": "cd814fd6-d489-4b28-885c-d548fe7fca24"
+                  "Id": "c86203f9-dcd9-4235-b69e-b740e544a78c"
                 },
                 "CommandList": [
                   {
@@ -5488,20 +3290,6 @@
                 ],
                 "ID": "579df94b-179d-4027-8557-16959d358b50"
               }
-            ]
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
             ]
           }
         ],
@@ -5526,21 +3314,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,50": {
@@ -5561,21 +3335,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,53": {
@@ -5585,25 +3345,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user01\");\r\ncell.setReadOnly(true);",
-            "ID": "37ca973ab14b400a96d42608f50b0183"
+            "ID": "2f1153cd337142ca8ab3bedfa7ab6987"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "31,57": {
@@ -5613,25 +3359,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user01\");\r\ncell.setReadOnly(false);",
-            "ID": "fc7b0038be0741ad8fb21f24e44d0e9a"
+            "ID": "97f8df02a0d64de5a7fab1a09636adf2"
           }
         ],
         "Text": "Javascript读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "32,1": {
@@ -5652,21 +3384,7 @@
         ],
         "Text": "value",
         "ClickMode": 1,
-        "TemplateKey": "_RS_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal2"
       }
     },
     "32,23": {
@@ -5678,20 +3396,6 @@
           {
             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
             "Message": "Time read only property!"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ],
         "CellDefaultValue": {
@@ -5718,21 +3422,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "32,32": {
@@ -5753,21 +3443,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "32,35": {
@@ -5777,25 +3453,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time01\");\r\ncell.setReadOnly(true);",
-            "ID": "84e9a19ec8e84514ab7f831e8e7088bc"
+            "ID": "0278f4bc139d426fba6dab186c89aeea"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "32,38": {
@@ -5805,25 +3467,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time01\");\r\ncell.setReadOnly(false);",
-            "ID": "118e2a9450124710ba11a62e1400c148"
+            "ID": "2dd03003137a476d9e9ca122f9d12977"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "33,1": {
@@ -5842,20 +3490,6 @@
           {
             "Value": "项目3",
             "DisplayValue": "项目3"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       },
@@ -5897,21 +3531,7 @@
             "DisplayValue": "项目3"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       }
     },
     "33,41": {
@@ -5925,20 +3545,6 @@
         ],
         "AutoFilter": 0,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "Administrator"
       }
     },
@@ -5960,21 +3566,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "33,50": {
@@ -5995,21 +3587,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "33,53": {
@@ -6019,25 +3597,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user02\");\r\ncell.setReadOnly(true);",
-            "ID": "0b8d8f1ca53c4fd0af8af1e089f64efa"
+            "ID": "35d28ae8f52a402ab9c555c9354a4174"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "33,57": {
@@ -6047,25 +3611,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user02\");\r\ncell.setReadOnly(false);",
-            "ID": "158b6bf54adb4919a488486de7252310"
+            "ID": "ce44228eab4d412b92fd39c6c36cfeb1"
           }
         ],
         "Text": "Javascript读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "34,23": {
@@ -6080,20 +3630,6 @@
           {
             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
             "Message": "Time read only property!"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ],
         "CellDefaultValue": {
@@ -6120,21 +3656,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "34,32": {
@@ -6155,21 +3677,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "34,35": {
@@ -6179,25 +3687,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time02\");\r\ncell.setReadOnly(true);",
-            "ID": "445314779fbf4f4a80a89058be3cf64d"
+            "ID": "967634efec214f229fb7cb75a6e72239"
           }
         ],
         "Text": "只读",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "34,38": {
@@ -6207,25 +3701,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"time02\");\r\ncell.setReadOnly(false);",
-            "ID": "887938e960f44d71847b02019b686ee3"
+            "ID": "34ff3e8f273b430eb1f33f8886e40f0e"
           }
         ],
         "Text": "读写",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "35,41": {
@@ -6237,21 +3717,7 @@
         "CustomColumns": [],
         "AutoFilter": 0,
         "TemplateKey": "自定义样式",
-        "WaterMark": "user selector",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "WaterMark": "user selector"
       }
     },
     "35,47": {
@@ -6272,21 +3738,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "35,50": {
@@ -6307,21 +3759,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "35,53": {
@@ -6331,25 +3769,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user03\");\r\ncell.setReadOnly(true);",
-            "ID": "827c660de7b3451e8e3f56a185da6c10"
+            "ID": "64b089132a594e57a96fb31bdfcdcf3c"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "35,57": {
@@ -6359,25 +3783,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user03\");\r\ncell.setReadOnly(false);",
-            "ID": "0cc06337a3ea4fcbaa5bab49d339d601"
+            "ID": "18d0a507f45f49ee92d61fc9880bc68c"
           }
         ],
         "Text": "Javascript读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "36,1": {
@@ -6410,21 +3820,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "预算数据",
           "ColumnName": "部門"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       }
     },
     "36,13": {
@@ -6445,21 +3841,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "36,16": {
@@ -6469,25 +3851,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio01\");\r\ncell.setReadOnly(true);",
-            "ID": "756123800fa14686a74749e8cd14f810"
+            "ID": "a9cd75d0845247b5a2843b46a5ca73be"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "36,20": {
@@ -6521,21 +3889,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "预算数据",
           "ColumnName": "部門"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       }
     },
     "36,33": {
@@ -6556,21 +3910,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "36,36": {
@@ -6580,25 +3920,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio03\");\r\ncell.setReadOnly(true);",
-            "ID": "58ee8bff04344d199f9031a0d130efd0"
+            "ID": "acdece6fe4594473a2fd28a4b2c7e6da"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "37,41": {
@@ -6606,21 +3932,7 @@
         "$type": "Forguncy.UserCellType, Forguncy",
         "Columns": 1,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -6658,21 +3970,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "37,50": {
@@ -6682,25 +3980,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"user04\");\r\ncell.setReadOnly(false);",
-            "ID": "7b0dd4a6cf0a43f49c38f1ef23491dfc"
+            "ID": "b7d2e62c59fc418a9655b3a3e25006d5"
           }
         ],
         "Text": "Javascript",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "37,54": {
@@ -6721,21 +4005,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "38,13": {
@@ -6756,21 +4026,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "38,16": {
@@ -6780,25 +4036,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio01\");\r\ncell.setReadOnly(false);",
-            "ID": "26f8a80e529247ccbd998c1af35db37b"
+            "ID": "c366310ce2274226a19bfc34a65ba5fd"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "38,33": {
@@ -6819,21 +4061,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "38,36": {
@@ -6843,25 +4071,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio03\");\r\ncell.setReadOnly(false);",
-            "ID": "615830f23fa1497482a13dbb4b2c43d9"
+            "ID": "dcb235db01b1402d85125f863c496224"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "39,41": {
@@ -6929,21 +4143,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "预算数据",
           "ColumnName": "部門"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       }
     },
     "40,13": {
@@ -6964,21 +4164,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "40,16": {
@@ -6988,25 +4174,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio02\");\r\ncell.setReadOnly(true);",
-            "ID": "fc36984b58ef485bbca1c0873bcaa3db"
+            "ID": "cc0b837ae3044612b550b6b5ffaca2a7"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "40,20": {
@@ -7040,21 +4212,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "预算数据",
           "ColumnName": "部門"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       }
     },
     "40,33": {
@@ -7075,21 +4233,7 @@
           }
         ],
         "Text": "只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "40,36": {
@@ -7099,25 +4243,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio04\");\r\ncell.setReadOnly(true);",
-            "ID": "4bc87a0226984cf2a076fa2225349aa5"
+            "ID": "515254a522364cdfa64f84395f7cea41"
           }
         ],
         "Text": "JS只读",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "40,41": {
@@ -7164,21 +4294,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "42,16": {
@@ -7188,25 +4304,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio02\");\r\ncell.setReadOnly(false);",
-            "ID": "c6a3a734fb1b4dfcae031b1f250cf059"
+            "ID": "b0f1c71911194589ba60806463f52aea"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "42,33": {
@@ -7227,21 +4329,7 @@
           }
         ],
         "Text": "读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "42,36": {
@@ -7251,25 +4339,11 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "var cell = Forguncy.Page.getCell(\"radio04\");\r\ncell.setReadOnly(false);",
-            "ID": "2ccd8a049e29474d8372b6733502a96a"
+            "ID": "3b0cb76f592a4379b61e5e1372ccf3e0"
           }
         ],
         "Text": "JS读写",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
